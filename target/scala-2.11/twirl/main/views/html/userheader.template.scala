@@ -85,9 +85,7 @@ Seq[Any](format.raw/*2.1*/("""<style>
 		<h3>
 			<label
 				style="text-align: left; font-size: .6em; font-style: italic; color: white;">
-				Register</label> <a href="#"><button type="button"
-					class="btn btn-primary" data-toggle="modal"
-					data-target=".bs-example-modal-sm">Your Page</button></a>
+				Logged In Page (Private)</label> 
 		</h3>
 	</div>
 </div>
@@ -96,7 +94,7 @@ Seq[Any](format.raw/*2.1*/("""<style>
 <!-- carousel of the header -->
 
 <div class="row roundedcorner"
-	style="background-image: url('"""),_display_(/*79.33*/routes/*79.39*/.Assets.at("images/backg.jpg")),format.raw/*79.69*/("""'); background-color:black;">
+	style="background-image: url('"""),_display_(/*77.33*/routes/*77.39*/.Assets.at("images/backg.jpg")),format.raw/*77.69*/("""'); background-color:black;">
 
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
@@ -110,7 +108,7 @@ Seq[Any](format.raw/*2.1*/("""<style>
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox" style="margin: auto;">
 			<div class="item active">
-				<img src='"""),_display_(/*93.16*/routes/*93.22*/.Assets.at("images/a.jpg")),format.raw/*93.48*/("""' alt="Chania">
+				<img src='"""),_display_(/*91.16*/routes/*91.22*/.Assets.at("images/a.jpg")),format.raw/*91.48*/("""' alt="Chania">
 				<div class="carousel-caption">
 					<h3>TIME</h3>
 					<p>Time is money...</p>
@@ -118,7 +116,7 @@ Seq[Any](format.raw/*2.1*/("""<style>
 			</div>
 
 			<div class="item">
-				<img src='"""),_display_(/*101.16*/routes/*101.22*/.Assets.at("images/c.jpg")),format.raw/*101.48*/("""' alt="Chania">
+				<img src='"""),_display_(/*99.16*/routes/*99.22*/.Assets.at("images/c.jpg")),format.raw/*99.48*/("""' alt="Chania">
 				<div class="carousel-caption">
 					<h3>Cheer</h3>
 					<p>Work hard and party harder...</p>
@@ -126,7 +124,7 @@ Seq[Any](format.raw/*2.1*/("""<style>
 			</div>
 
 			<div class="item">
-				<img src='"""),_display_(/*109.16*/routes/*109.22*/.Assets.at("images/e.jpg")),format.raw/*109.48*/("""' alt="Flower">
+				<img src='"""),_display_(/*107.16*/routes/*107.22*/.Assets.at("images/e.jpg")),format.raw/*107.48*/("""' alt="Flower">
 				<div class="carousel-caption">
 					<h3>Test Yourself</h3>
 					<p>Evaluate your capabilities, these may be endless</p>
@@ -134,7 +132,7 @@ Seq[Any](format.raw/*2.1*/("""<style>
 			</div>
 
 			<div class="item">
-				<img src='"""),_display_(/*117.16*/routes/*117.22*/.Assets.at("images/f.png")),format.raw/*117.48*/("""' alt="Flower">
+				<img src='"""),_display_(/*115.16*/routes/*115.22*/.Assets.at("images/f.png")),format.raw/*115.48*/("""' alt="Flower">
 				<div class="carousel-caption">
 					<h3>Development & Design</h3>
 					<p>World is beautiful so bring your creativity and portrate
@@ -164,8 +162,8 @@ Seq[Any](format.raw/*2.1*/("""<style>
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href=""""),_display_(/*147.36*/routes/*147.42*/.Application.index),format.raw/*147.60*/("""">Home</a></li>
-						<li><a href=""""),_display_(/*148.21*/routes/*148.27*/.Application.usereditEmp),format.raw/*148.51*/("""">Update Profile</a></li>
+						<li class="active"><a href=""""),_display_(/*145.36*/routes/*145.42*/.Application.index),format.raw/*145.60*/("""">Home</a></li>
+						<li><a href=""""),_display_(/*146.21*/routes/*146.27*/.Application.usereditEmp),format.raw/*146.51*/("""">Update Profile</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right" style="padding-top: .7%;">
 						<form action="/searchlist" method="get" form-inline" role="search">
@@ -197,11 +195,11 @@ Seq[Any](format.raw/*2.1*/("""<style>
 }
               /*
                   -- GENERATED --
-                  DATE: Thu Feb 26 18:10:59 IST 2015
+                  DATE: Fri Feb 27 01:37:05 IST 2015
                   SOURCE: /home/knoldus/workspace/PlayAssignment/app/views/userheader.scala.html
-                  HASH: 172fd5ff2b46b76001daa359bb7c7feb259ef4dd
-                  MATRIX: 585->1|632->21|660->22|688->24|841->150|869->151|898->153|946->174|974->175|1003->177|1031->178|1059->179|1101->193|1130->194|1159->196|1222->232|1250->233|1278->234|1380->308|1409->309|1438->311|1478->324|1506->325|1535->327|1591->355|1620->356|1649->358|1692->374|1720->375|1749->377|1801->401|1830->402|1859->404|1916->434|1944->435|1973->437|2027->463|2056->464|2085->466|2154->508|2182->509|2211->511|2254->526|2283->527|2312->529|2360->550|2388->551|2417->553|2456->564|2485->565|2514->567|2557->583|2585->584|2613->585|2885->830|2900->836|2940->855|3431->1319|3446->1325|3497->1355|4073->1904|4088->1910|4135->1936|4321->2094|4337->2100|4385->2126|4585->2298|4601->2304|4649->2330|4876->2529|4892->2535|4940->2561|5832->3425|5848->3431|5888->3449|5952->3485|5968->3491|6014->3515
-                  LINES: 22->2|23->3|23->3|24->4|29->9|29->9|30->10|33->13|33->13|35->15|35->15|36->16|36->16|36->16|37->17|38->18|38->18|39->19|43->23|43->23|44->24|45->25|45->25|47->27|47->27|47->27|48->28|49->29|49->29|51->31|51->31|51->31|52->32|54->34|54->34|56->36|56->36|56->36|57->37|59->39|59->39|61->41|61->41|61->41|62->42|63->43|63->43|65->45|65->45|65->45|66->46|67->47|67->47|68->48|81->61|81->61|81->61|99->79|99->79|99->79|113->93|113->93|113->93|121->101|121->101|121->101|129->109|129->109|129->109|137->117|137->117|137->117|167->147|167->147|167->147|168->148|168->148|168->148
+                  HASH: 456b1c029115f5ce8676291000015111e806e1c1
+                  MATRIX: 585->1|632->21|660->22|688->24|841->150|869->151|898->153|946->174|974->175|1003->177|1031->178|1059->179|1101->193|1130->194|1159->196|1222->232|1250->233|1278->234|1380->308|1409->309|1438->311|1478->324|1506->325|1535->327|1591->355|1620->356|1649->358|1692->374|1720->375|1749->377|1801->401|1830->402|1859->404|1916->434|1944->435|1973->437|2027->463|2056->464|2085->466|2154->508|2182->509|2211->511|2254->526|2283->527|2312->529|2360->550|2388->551|2417->553|2456->564|2485->565|2514->567|2557->583|2585->584|2613->585|2885->830|2900->836|2940->855|3302->1190|3317->1196|3368->1226|3944->1775|3959->1781|4006->1807|4191->1965|4206->1971|4253->1997|4453->2169|4469->2175|4517->2201|4744->2400|4760->2406|4808->2432|5700->3296|5716->3302|5756->3320|5820->3356|5836->3362|5882->3386
+                  LINES: 22->2|23->3|23->3|24->4|29->9|29->9|30->10|33->13|33->13|35->15|35->15|36->16|36->16|36->16|37->17|38->18|38->18|39->19|43->23|43->23|44->24|45->25|45->25|47->27|47->27|47->27|48->28|49->29|49->29|51->31|51->31|51->31|52->32|54->34|54->34|56->36|56->36|56->36|57->37|59->39|59->39|61->41|61->41|61->41|62->42|63->43|63->43|65->45|65->45|65->45|66->46|67->47|67->47|68->48|81->61|81->61|81->61|97->77|97->77|97->77|111->91|111->91|111->91|119->99|119->99|119->99|127->107|127->107|127->107|135->115|135->115|135->115|165->145|165->145|165->145|166->146|166->146|166->146
                   -- GENERATED --
               */
           

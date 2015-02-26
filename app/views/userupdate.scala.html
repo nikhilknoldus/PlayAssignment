@@ -7,10 +7,14 @@
 @main("userupdate") {
     
     <!-- Begin page content -->
-	<div class="container">
-		<div class="page-header">
-			<h1>Edit Employee</h1>
-		</div>
+    <div class="row">
+    <div class="col-sm-8 col-dm-8 col-xs-8"> 
+		<div class="panel panel-primary">
+   <div class="panel-heading">
+      <h3 class="panel-title">Update Profile</h3>
+   </div>
+   <div class="panel-body">
+      
 		
 		@form(routes.Application.userupdateEmp(id)) {
 			<fieldset>
@@ -21,4 +25,26 @@
 					</div>
 		}
 	</div>
+</div>
+</div>
+    <div class="col-sm-4 col-dm-4 col-xs-4">
+    
+ 	<div class="thumbnail">	
+      <img src='@routes.Assets.at("images/img_1.png")' alt="...">
+      <div class="caption">
+  			<h4 align="center"><span>Set Your Avatar </span></h4>
+       		 <p align="center"><a href="#" class="btn btn-primary" role="button">Browse</a> <a href="#" class="btn btn-default" role="button">Search</a></p>
+      </div>
+    </div>
+  
+    
+ 	<div class="thumbnail">	
+      <img src='@routes.Assets.at("images/img_1.png")' alt="...">
+      <div class="caption">
+  			<h4 align="center"><span>Link Your Account </span></h4>
+       		 <p align="center"><span class="badge"><a href="#" class="btn btn-primary" role="button">Facebook</a></span><span class="badge"><a href="#" class="btn btn-primary" role="button">Twitter</a></span><span class="badge"><a href="#" class="btn btn-primary" role="button">linkedIn</a></span>  </p>
+      </div>
+    </div>
+    </div>
+</div>
 }

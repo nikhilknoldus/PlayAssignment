@@ -39,7 +39,10 @@ object Models extends App {
   def count(filter: String)(implicit s: Session): Int =
     Query(employeeTableQuery.filter(_.name.toLowerCase like filter.toLowerCase).length).first
 
-  // val employees = TableQuery(new employeeTable(_))
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * insertInTo function is inserting the records in the
+ * relation
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
   def insertInTo(employeeObj: Employee)(implicit s: Session) {
     val employeeTableQuery = TableQuery[employeeTable]
@@ -49,24 +52,31 @@ object Models extends App {
     employeeTableQuery.insert(employeeObj)
   }
 
-  def find(email:String)(implicit s:Session):Option[Int]={
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * find function is checking the user whether available 
+ * in the records or not
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+  def find(email: String)(implicit s: Session): Option[Int] = {
     val employeeTableQuery = TableQuery[employeeTable]
-    employeeTableQuery.filter(_.email===email).list.head.id
-}
-  
-  
+    employeeTableQuery.filter(_.email === email).list.head.id
+  }
+
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * checklogin function is used to check the login 
+ * whether the user provided valid credentials or not
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
   def checklogin(obj: Login)(implicit s: Session): Int = {
     val employeeTableQueryNew = TableQuery[employeeTable]
     val ans = employeeTableQueryNew.filter(x => x.email === obj.email && x.password === obj.password).list.length
     ans
-    /*
-    println("Ans ======" + ans)
-    val ans2 = ans.list
-    println("Ans2 ======" + ans2)
-    val ans3 = ans2.length
-    println("Ans3 ======" + ans3)
-    ans3*/
   }
+
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * showAll ::: temporary function although used to 
+ * show all the records
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
   def showall(page: Int, pagesize: Int, filter: String, totalsize: Int)(implicit s: Session): List[Employee] = {
     val employeeTableQuery = TableQuery[employeeTable]
@@ -77,20 +87,40 @@ object Models extends App {
     employeeTableQuery.list
   }
 
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ *deleteEmpMethod is taking id as parameter of knolx
+ * and will delete the record from the table
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
   def deleteEmpMethod(id: Int)(implicit s: Session): Int = {
     val employeeTableQuery = TableQuery[employeeTable]
     employeeTableQuery.filter(_.id === id).delete
   }
 
-  def useredit(id: Int=1)(implicit s: Session): Option[Employee] = {
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * useredit function is used to get the values of knolx
+ * that is required to update
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+  def useredit(id: Int = 1)(implicit s: Session): Option[Employee] = {
     val employeeTableQuery = TableQuery[employeeTable]
     employeeTableQuery.filter(_.id === id).firstOption
   }
+
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * userupdate function is used to update the records
+ * of knolx 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
   def userupdate(id: Int, emp: Employee)(implicit s: Session): Int = {
     val employeeTableQuery = TableQuery[employeeTable]
     employeeTableQuery.filter(_.id === id).update(emp)
   }
+
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * getsearchlist function is used to list out the 
+ * searched list of records using name field
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
   def getsearchlist(name: String)(implicit s: Session): Option[List[Employee]] = {
     val employeeTableQuery = TableQuery[employeeTable]
@@ -98,6 +128,14 @@ object Models extends App {
   }
 
 }
-
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Employee case class contains all fields required
+ * to get registered in the website.
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 case class Employee(name: String, password: String, address: String, company: String, email: String, phone: Long, created: Date = new Date(), updated: Date = new Date(), user_type: Int, id: Option[Int])
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Login case class contains two fields to get
+ * successfull login in table
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 case class Login(email: String, password: String)

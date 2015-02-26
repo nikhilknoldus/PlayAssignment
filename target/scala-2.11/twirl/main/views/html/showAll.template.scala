@@ -44,14 +44,6 @@ Seq[Any](format.raw/*2.108*/("""
 			<table class="table table-striped">
 				<div style="background-color: skyblue" class="panel-heading">Employee</div>
 				
-				
-				
-		
-				
-				
-				
-				
-				
 				<tr>
 					<th><a data-ng-click="sort='id'" href="#">ID</a></th>
 					<th><a data-ng-click="sort='name'" href="#">Name</a></th>
@@ -68,49 +60,46 @@ Seq[Any](format.raw/*2.108*/("""
 					
 				</tr>
 				<tr>
-					"""),_display_(/*52.7*/for(x<-param) yield /*52.20*/{_display_(Seq[Any](format.raw/*52.21*/("""
-					"""),format.raw/*53.6*/("""<td>"""),_display_(/*53.11*/x/*53.12*/.id),format.raw/*53.15*/("""</td>	
-					<td>"""),_display_(/*54.11*/x/*54.12*/.name),format.raw/*54.17*/("""</td>
-					<td>"""),_display_(/*55.11*/x/*55.12*/.password),format.raw/*55.21*/("""</td>	
-					<td>"""),_display_(/*56.11*/x/*56.12*/.address),format.raw/*56.20*/("""</td>
-					<td>"""),_display_(/*57.11*/x/*57.12*/.company),format.raw/*57.20*/("""</td>
-					<td>"""),_display_(/*58.11*/x/*58.12*/.email),format.raw/*58.18*/("""</td>
-					<td>"""),_display_(/*59.11*/x/*59.12*/.phone),format.raw/*59.18*/("""</td>
-					<td>"""),_display_(/*60.11*/x/*60.12*/.created),format.raw/*60.20*/("""</td>
-					<td>"""),_display_(/*61.11*/x/*61.12*/.updated),format.raw/*61.20*/("""</td>
-					<td>"""),_display_(/*62.11*/x/*62.12*/.user_type),format.raw/*62.22*/("""</td>
+					"""),_display_(/*44.7*/for(x<-param) yield /*44.20*/{_display_(Seq[Any](format.raw/*44.21*/("""
+					"""),format.raw/*45.6*/("""<td>"""),_display_(/*45.11*/x/*45.12*/.id),format.raw/*45.15*/("""</td>	
+					<td>"""),_display_(/*46.11*/x/*46.12*/.name),format.raw/*46.17*/("""</td>
+					<td>"""),_display_(/*47.11*/x/*47.12*/.password),format.raw/*47.21*/("""</td>	
+					<td>"""),_display_(/*48.11*/x/*48.12*/.address),format.raw/*48.20*/("""</td>
+					<td>"""),_display_(/*49.11*/x/*49.12*/.company),format.raw/*49.20*/("""</td>
+					<td>"""),_display_(/*50.11*/x/*50.12*/.email),format.raw/*50.18*/("""</td>
+					<td>"""),_display_(/*51.11*/x/*51.12*/.phone),format.raw/*51.18*/("""</td>
+					<td>"""),_display_(/*52.11*/x/*52.12*/.created),format.raw/*52.20*/("""</td>
+					<td>"""),_display_(/*53.11*/x/*53.12*/.updated),format.raw/*53.20*/("""</td>
+					<td>"""),_display_(/*54.11*/x/*54.12*/.user_type),format.raw/*54.22*/("""</td>
 					
 				
-					<td><a href=""""),_display_(/*65.20*/routes/*65.26*/.Application.deleteEmp((x.id).get)),format.raw/*65.60*/(""""> 
+					<td><a href=""""),_display_(/*57.20*/routes/*57.26*/.Application.deleteEmp((x.id).get)),format.raw/*57.60*/(""""> 
 					<button type="button" class="btn btn-default" aria-label="Left Align">
-  <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
-</button></a>
+ 						 <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+					</button>
+					</a>
 					</td>
-					
 					<td><a href="#"><span>
-					<button class="btn btn-primary" type="button"><span class="badge">"""),_display_(/*72.73*/x/*72.74*/.name),format.raw/*72.79*/("""</span>
+					<button class="btn btn-primary" type="button"><span class="badge">"""),_display_(/*64.73*/x/*64.74*/.name),format.raw/*64.79*/("""</span>
 					</button></span></td>
 					
-				</tr>""")))}),format.raw/*75.11*/("""
+				</tr>""")))}),format.raw/*67.11*/("""
 				
 				
-			"""),format.raw/*78.4*/("""</table>
+			"""),format.raw/*70.4*/("""</table>
 			<tr>
-			<div><a href="/showAll?page="""),_display_(/*80.33*/(page-1)),format.raw/*80.41*/("""&search="""),_display_(/*80.50*/filter),format.raw/*80.56*/("""" class="btn btn-info col-md-2"  id="prev"><span class="glyphicon glyphicon-chevron-left"></span>Previous</a>
-                <div class="col-md-8" align="center"><h3>"""),_display_(/*81.59*/(page+1)),format.raw/*81.67*/("""/"""),_display_(/*81.69*/(((total-1)/5)+1)),format.raw/*81.86*/("""</h3></div>
-                <a href="/showAll?page="""),_display_(/*82.41*/(page+1)),format.raw/*82.49*/("""&search="""),_display_(/*82.58*/filter),format.raw/*82.64*/("""" class="btn btn-info col-md-2" id="next">Next<span class="glyphicon glyphicon-chevron-right"></span></a>
+			<div><a href="/showAll?page="""),_display_(/*72.33*/(page-1)),format.raw/*72.41*/("""&search="""),_display_(/*72.50*/filter),format.raw/*72.56*/("""" class="btn btn-info col-md-2"  id="prev"><span class="glyphicon glyphicon-chevron-left"></span>Previous</a>
+                <div class="col-md-8" align="center"><h3>"""),_display_(/*73.59*/(page+1)),format.raw/*73.67*/("""/"""),_display_(/*73.69*/(((total-1)/5)+1)),format.raw/*73.86*/("""</h3></div>
+                <a href="/showAll?page="""),_display_(/*74.41*/(page+1)),format.raw/*74.49*/("""&search="""),_display_(/*74.58*/filter),format.raw/*74.64*/("""" class="btn btn-info col-md-2" id="next">Next<span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
 			</tr>
-			
-			
-			
-					</div>
+		</div>
 		<!-- Panel ends here -->
 	</div>
 </div>
-""")))}),format.raw/*92.2*/("""
+""")))}),format.raw/*81.2*/("""
 
-"""),format.raw/*94.1*/("""<!-- Body ends here -->"""))}
+"""),format.raw/*83.1*/("""<!-- Body ends here -->"""))}
   }
 
   def render(param:List[Employee],page:Int,pagesize:Int,filter:String,total:Int,flash:play.api.mvc.Flash): play.twirl.api.HtmlFormat.Appendable = apply(param,page,pagesize,filter,total)(flash)
@@ -122,11 +111,11 @@ Seq[Any](format.raw/*2.108*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Thu Feb 26 16:13:38 IST 2015
+                  DATE: Fri Feb 27 01:55:41 IST 2015
                   SOURCE: /home/knoldus/workspace/PlayAssignment/app/views/showAll.scala.html
-                  HASH: f24e76f1abc27a251875c25d2077039ab5ab230d
-                  MATRIX: 553->2|768->108|795->110|819->115|848->140|879->144|952->191|976->206|1015->207|1044->209|1144->283|1157->288|1185->307|1236->320|1267->324|1451->481|1479->488|1510->492|1550->502|1580->505|2707->1606|2736->1619|2775->1620|2808->1626|2840->1631|2850->1632|2874->1635|2918->1652|2928->1653|2954->1658|2997->1674|3007->1675|3037->1684|3081->1701|3091->1702|3120->1710|3163->1726|3173->1727|3202->1735|3245->1751|3255->1752|3282->1758|3325->1774|3335->1775|3362->1781|3405->1797|3415->1798|3444->1806|3487->1822|3497->1823|3526->1831|3569->1847|3579->1848|3610->1858|3673->1894|3688->1900|3743->1934|4055->2219|4065->2220|4091->2225|4173->2276|4214->2290|4290->2339|4319->2347|4355->2356|4382->2362|4577->2530|4606->2538|4635->2540|4673->2557|4752->2609|4781->2617|4817->2626|4844->2632|5075->2833|5104->2835
-                  LINES: 19->2|22->2|23->3|23->3|26->7|30->11|31->12|31->12|31->12|33->14|36->17|36->17|36->17|36->17|37->18|39->20|39->20|40->21|41->22|42->23|71->52|71->52|71->52|72->53|72->53|72->53|72->53|73->54|73->54|73->54|74->55|74->55|74->55|75->56|75->56|75->56|76->57|76->57|76->57|77->58|77->58|77->58|78->59|78->59|78->59|79->60|79->60|79->60|80->61|80->61|80->61|81->62|81->62|81->62|84->65|84->65|84->65|91->72|91->72|91->72|94->75|97->78|99->80|99->80|99->80|99->80|100->81|100->81|100->81|100->81|101->82|101->82|101->82|101->82|111->92|113->94
+                  HASH: 0a743a60e526b7883b95283d95635bdad6bd785e
+                  MATRIX: 553->2|768->108|795->110|819->115|848->140|879->144|952->191|976->206|1015->207|1044->209|1144->283|1157->288|1185->307|1236->320|1267->324|1451->481|1479->488|1510->492|1550->502|1580->505|2669->1568|2698->1581|2737->1582|2770->1588|2802->1593|2812->1594|2836->1597|2880->1614|2890->1615|2916->1620|2959->1636|2969->1637|2999->1646|3043->1663|3053->1664|3082->1672|3125->1688|3135->1689|3164->1697|3207->1713|3217->1714|3244->1720|3287->1736|3297->1737|3324->1743|3367->1759|3377->1760|3406->1768|3449->1784|3459->1785|3488->1793|3531->1809|3541->1810|3572->1820|3635->1856|3650->1862|3705->1896|4028->2192|4038->2193|4064->2198|4146->2249|4187->2263|4263->2312|4292->2320|4328->2329|4355->2335|4550->2503|4579->2511|4608->2513|4646->2530|4725->2582|4754->2590|4790->2599|4817->2605|5033->2791|5062->2793
+                  LINES: 19->2|22->2|23->3|23->3|26->7|30->11|31->12|31->12|31->12|33->14|36->17|36->17|36->17|36->17|37->18|39->20|39->20|40->21|41->22|42->23|63->44|63->44|63->44|64->45|64->45|64->45|64->45|65->46|65->46|65->46|66->47|66->47|66->47|67->48|67->48|67->48|68->49|68->49|68->49|69->50|69->50|69->50|70->51|70->51|70->51|71->52|71->52|71->52|72->53|72->53|72->53|73->54|73->54|73->54|76->57|76->57|76->57|83->64|83->64|83->64|86->67|89->70|91->72|91->72|91->72|91->72|92->73|92->73|92->73|92->73|93->74|93->74|93->74|93->74|100->81|102->83
                   -- GENERATED --
               */
           

@@ -44,7 +44,7 @@ Seq[Any](format.raw/*1.38*/("""
     """),_display_(/*23.6*/contentPassed),format.raw/*23.19*/("""
     """),_display_(/*24.6*/footer()),format.raw/*24.14*/("""
     """),format.raw/*25.5*/("""</body>
-</html>ll
+</html>
 """))}
   }
 
@@ -57,9 +57,9 @@ Seq[Any](format.raw/*1.38*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Thu Feb 26 16:24:52 IST 2015
+                  DATE: Fri Feb 27 01:28:45 IST 2015
                   SOURCE: /home/knoldus/workspace/PlayAssignment/app/views/usermain.scala.html
-                  HASH: 222bd4a3e112c784d40c38f212772f94f3576d63
+                  HASH: 4cb076c0798fe259b7aa0eeb3b04166ed0cbd7ff
                   MATRIX: 513->1|637->37|665->39|827->174|853->179|965->265|1000->279|1029->282|1060->292|1093->298|1237->416|1270->428|1302->434|1336->447|1368->453|1397->461|1429->466
                   LINES: 19->1|22->1|24->3|31->10|31->10|34->13|34->13|35->14|35->14|38->17|43->22|43->22|44->23|44->23|45->24|45->24|46->25
                   -- GENERATED --

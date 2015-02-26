@@ -29,33 +29,94 @@
  		</div>
  	</div>
  	<div class="col-sm-6 col-xs-4 col-dm-6">
- 	
- 	<div class="thumbnail">
- 	
+ 	    
+    <div class="panel-group" id="accordion">
+   <div class="panel panel-default">
+      <div class="panel-heading">
+         <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#collapseOne">
+            Latest Technology Trends
+            </a>
+         </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse in">
+         <div class="panel-body">
+            Knoldus strongly believes in strongly sharing knowledge. We conduct knowledge sessions every week.
+         </div>
+      </div>
+   </div>
+   <div class="panel panel-success">
+      <div class="panel-heading">
+         <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#collapseTwo">
+              Live Demos
+            </a>
+         </h4>
+      </div>
+      <div id="collapseTwo" class="panel-collapse collapse">
+         <div class="panel-body">
+           Theory does not work every time, so in every session live practicals takes place
+         </div>
+      </div>
+   </div>
+   <div class="panel panel-info">
+      <div class="panel-heading">
+         <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#collapseThree">
+               Developers
+            </a>
+         </h4>
+      </div>
+      <div id="collapseThree" class="panel-collapse collapse">
+         <div class="panel-body">
+          Developer & Designers share their hard earned experience in session
+         </div>
+      </div>
+   </div>
+   <div class="panel panel-warning">
+      <div class="panel-heading">
+         <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#collapseFour">
+              You can be a part 
+            </a>
+         </h4>
+      </div>
+      <div id="collapseFour" class="panel-collapse collapse">
+         <div class="panel-body">
+           If you want to share your experience, you are most welcomed
+         </div>
+      </div>
+   </div>
+</div>
+<script type="text/javascript">
+	$(function() {
+		$('#collapseFour').collapse({
+			toggle : false
+		})
+	});
+	$(function() {
+		$('#collapseTwo').collapse('show')
+	});
+	$(function() {
+		$('#collapseThree').collapse('toggle')
+	});
+	$(function() {
+		$('#collapseOne').collapse('hide')
+	});
+</script>  
+    
+ 
+ 	<div class="thumbnail">	
       <img src='@routes.Assets.at("images/img_1.png")' alt="...">
       <div class="caption">
-        <h3>Register with us for opportunities</h3>
-        <p><a href="#" class="btn btn-primary" role="button">Contribute</a> <a href="#" class="btn btn-default" role="button">Share</a></p>
+  			<h4 align="center"><span>We always welcome talent </span></h4>
+       		 <p align="center"><a href="#" class="btn btn-primary" role="button">Contribute</a> <a href="#" class="btn btn-default" role="button">Share</a></p>
       </div>
     </div>
-    
- 	<div class="thumbnail">
-      <img src='@routes.Assets.at("images/img_2.jpg")' alt="...">
-      <div class="caption">
-        <h3>Knowledge Tree</h3>
-        <p></p>
-        <p><a href="#" class="btn btn-primary" role="button">Grow the tree of knowledge</a> <a href="#" class="btn btn-default" role="button">Share</a></p>
-      </div>
-    </div>
-    
- 	<div class="thumbnail">
-      <img src="..." alt="...">
-      <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
-    </div>   
   </div> 	
  </div>
 

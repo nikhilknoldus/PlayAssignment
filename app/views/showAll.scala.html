@@ -25,14 +25,6 @@
 			<table class="table table-striped">
 				<div style="background-color: skyblue" class="panel-heading">Employee</div>
 				
-				
-				
-		
-				
-				
-				
-				
-				
 				<tr>
 					<th><a data-ng-click="sort='id'" href="#">ID</a></th>
 					<th><a data-ng-click="sort='name'" href="#">Name</a></th>
@@ -64,10 +56,10 @@
 				
 					<td><a href="@routes.Application.deleteEmp((x.id).get)"> 
 					<button type="button" class="btn btn-default" aria-label="Left Align">
-  <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
-</button></a>
+ 						 <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+					</button>
+					</a>
 					</td>
-					
 					<td><a href="#"><span>
 					<button class="btn btn-primary" type="button"><span class="badge">@x.name</span>
 					</button></span></td>
@@ -82,10 +74,7 @@
                 <a href="/showAll?page=@(page+1)&search=@filter" class="btn btn-info col-md-2" id="next">Next<span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
 			</tr>
-			
-			
-			
-					</div>
+		</div>
 		<!-- Panel ends here -->
 	</div>
 </div>

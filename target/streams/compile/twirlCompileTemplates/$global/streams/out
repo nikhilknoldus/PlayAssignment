@@ -1,4 +1,4 @@
-[0m[[31merror[0m] [0m/home/knoldus/workspace/PlayAssignment/app/views/header.scala.html:85: Invalid '@' symbol[0m
+[0m[[31merror[0m] [0m/home/knoldus/workspace/PlayAssignment/app/views/userheader.scala.html:85: Invalid '@' symbol[0m
 [0m[[31merror[0m] [0m	style="background-image: url('@ routes.Assets.at ("images/backg.jpg")'); background-color:black;">[0m
 [0m[[31merror[0m] [0m	                              ^[0m
 [0m[[31merror[0m] [0m(compile:[31mtwirlCompileTemplates[0m) Twirl compilation failed[0m

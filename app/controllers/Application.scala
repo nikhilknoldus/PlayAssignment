@@ -89,30 +89,12 @@ object Application extends Controller {
     Redirect(routes.Application.showAll(0, 5, "", 50)).flashing("success" -> "Employee has been deleted")
   }
 
-  /*  def editEmp(id: Int) = DBAction { implicit request =>
-    Models.edit(id) match {
-      case Some(employee) => Ok(views.html.editform(id, employeeForm.fill(employee)))
-      case None           => NotFound
-    }
-  }
-
-  def updateEmp(id: Int) = DBAction { implicit request =>
-    employeeForm.bindFromRequest.fold(
-      formWithErrors => BadRequest(views.html.editform(id, formWithErrors)),
-      emp => {
-        val companyToUpdate: Employee = emp.copy(id = Some(id))
-        Models.updateEmpMethod(id, companyToUpdate)
-        Redirect(routes.Application.showAll(0, 5, "", 50)).flashing("success" -> "Employee has been updated")
-      })
- }
-*/
-
   def usereditEmp() = DBAction { implicit request =>
-    val email= request.session.get("usr").get
-    val id=Models.find(email).get
-    
+    val email = request.session.get("usr").get
+    val id = Models.find(email).get
+
     Models.useredit(id) match {
-      case Some(employee) => Ok(views.html.userupdate( id, employeeForm.fill(employee)))
+      case Some(employee) => Ok(views.html.userupdate(id, employeeForm.fill(employee)))
       case None           => NotFound
     }
   }
@@ -126,8 +108,6 @@ object Application extends Controller {
         Ok(views.html.userhome("home"))
       })
   }
-
-
 
   def showAll(page: Int, pagesize: Int, filter: String, totalsize: Int): Action[AnyContent] = DBAction { implicit rs =>
     val ans = Models.showall(page, pagesize, "%" + filter + "%", totalsize)
@@ -157,10 +137,6 @@ object Application extends Controller {
       Ok(views.html.index())
     }
   }
-
-  /* def userupdate: Action[AnyContent] = Action { implicit rs =>
-    Ok(views.html.userupdate())
-  }*/
 
   def contact: Action[AnyContent] = Action { implicit rs =>
     Ok(views.html.contact(801065634, "Contact Us"))

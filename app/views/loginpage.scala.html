@@ -1,0 +1,84 @@
+@import helper._
+
+@(formData:Form[Login])
+
+@implicitFieldConstructor = @{ FieldConstructor(twitterBootstrapInput.f)}
+
+@main("loginpage"){
+<style>
+.bs-example {
+	margin: 20px;
+
+	/* Fix alignment issue of label on extra small devices in Bootstrap 3.2 */
+	.
+	form-horizontal
+	.control-label{
+	padding-top
+	:
+	7px;
+}
+}
+.custom_class {
+	background-color: black !important;
+}
+</style>
+<style>
+
+/* make sidebar nav vertical */
+.sidebar-nav .navbar ul {
+	float: none;
+}
+
+.sidebar-nav .navbar ul:not {
+	display: block;
+}
+
+.sidebar-nav .navbar li {
+	float: none;
+	display: block;
+}
+
+.sidebar-nav .navbar li a {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.roundedcorner {
+	border-radius: 20px;
+}
+
+.topmargin {
+	margin-top: 0%;
+}
+</style>
+
+</head>
+
+<!-- Container starts here in the Body -->
+
+
+<div class="row roundedcorner topmargin"
+	style="background-color: black;">
+	<div class="col-sm-8 col-xs-9 col-md-8">
+		<br> 
+		@form(routes.Application.checklogin){
+		
+		<div class="form-group">
+			<div class="col-dm-12 col-sm-12 col-xs-12">
+				@inputText(formData("email"), '_label -> "Email",'class -> "form-control")
+				<span
+					class="glyphicon glyphicon-envelope form-control-feedback"></span>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-dm-12 col-sm-12 col-xs-12">
+				@inputText(formData("password"), '_label -> "Password",'class -> "form-control") <span
+					class="glyphicon glyphicon-asterisk form-control-feedback"></span>
+			</div>
+		</div>
+		<button type="submit" class="btn btn-default">Login</button>
+		}
+
+	</div>
+</div>
+}

@@ -1,0 +1,26 @@
+@(title: String)(contentPassed: Html)
+
+<!DOCTYPE html>
+
+<html>
+<!-- Including all the js and css libraries here -->
+   <head>
+    
+    <!-- Title of the page -->
+    <title>@title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+ @scripts(title)
+ @css(title)
+ 
+ 
+ </head>
+    
+    <body class="container">    
+    <!-- This is content of the page that contains body -->
+     	
+   	@header()
+    @contentPassed
+    @footer()
+    </body>
+</html>

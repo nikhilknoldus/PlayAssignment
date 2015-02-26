@@ -1,0 +1,27 @@
+@* css Template File *@
+@(param: String)
+
+
+@param match {
+	case "index" =>{
+ <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootstrap.css")"> 
+<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootstrap.min.css")">
+<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootstrap-theme.min.css")">
+}
+	case "addnew" =>{
+ <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootstrap.css")"> 
+<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootstrap.min.css")">
+<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootstrap-theme.min.css")">
+}
+case "showAll" =>{
+	<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootstrap.css")"> 
+<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootstrap.min.css")">
+<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootstrap-theme.min.css")">
+}
+
+case _ =>{
+	<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootstrap.css")"> 
+<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootstrap.min.css")">
+<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootstrap-theme.min.css")">}
+
+}

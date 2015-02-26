@@ -1,0 +1,820 @@
+2015-02-26 17:20:15,004 - [INFO] - from play in pool-4-thread-6 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2015-02-26 17:22:54,715 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6lajdiig5 - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[value userupdateEmp is not a member of controllers.ReverseApplication]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-02-26 17:22:54,804 - [WARN] - from play in New I/O worker #1 
+No application found at invoker init
+
+2015-02-26 17:24:07,162 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6lajdmll3 - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[missing arguments for method userupdateEmp in class ReverseApplication;
+follow this method with `_' if you want to treat it as a partially applied function]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-02-26 17:24:18,249 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6lajdnc5b - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[missing arguments for method userupdateEmp in class ReverseApplication;
+follow this method with `_' if you want to treat it as a partially applied function]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-02-26 17:26:54,854 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6laje69mk - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[missing arguments for method userupdateEmp in class ReverseApplication;
+follow this method with `_' if you want to treat it as a partially applied function]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-02-26 17:27:08,577 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6laje744g - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[missing arguments for method userupdateEmp in class ReverseApplication;
+follow this method with `_' if you want to treat it as a partially applied function]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-02-26 17:30:06,347 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 17:30:06,450 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-02-26 17:35:03,923 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6lajf8594 - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[not found: value id]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-02-26 17:36:50,890 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6lajfe7f7 - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[not enough arguments for method userupdateEmp: (id: Int)play.api.mvc.Action[play.api.mvc.AnyContent].
+Unspecified value parameter id.]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-02-26 17:37:36,837 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6lajfgneb - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[not enough arguments for method usereditEmp: (id: Int)play.api.mvc.Action[play.api.mvc.AnyContent].
+Unspecified value parameter id.]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-02-26 17:38:30,005 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6lajfjo59 - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[not enough arguments for method usereditEmp: (id: Int)play.api.mvc.Call.
+Unspecified value parameter id.]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-02-26 17:41:35,664 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 17:41:35,672 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-02-26 17:42:31,954 - [ERROR] - from application in New I/O worker #3 
+
+
+! @6lajg7i34 - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[not enough arguments for method usereditEmp: (id: Int)play.api.mvc.Action[play.api.mvc.AnyContent].
+Unspecified value parameter id.]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-02-26 17:43:22,717 - [ERROR] - from application in New I/O worker #3 
+
+
+! @6lajgaf5e - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[not found: value id]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-02-26 17:49:54,044 - [ERROR] - from application in New I/O worker #8 
+
+
+! @6lajh6m2f - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[not found: value id]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-02-26 18:06:06,271 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:06:06,278 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-02-26 18:07:15,635 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:07:15,644 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-02-26 18:08:58,120 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:08:58,125 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-02-26 18:11:01,602 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:11:01,609 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-02-26 18:21:43,921 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:21:43,930 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-02-26 18:22:16,594 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:22:16,599 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-02-26 18:22:45,154 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:22:45,161 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-02-26 18:25:33,918 - [INFO] - from play in play-internal-execution-context-3 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:25:33,924 - [INFO] - from play in play-internal-execution-context-3 
+Application started (Dev)
+
+2015-02-26 18:26:04,469 - [INFO] - from play in play-internal-execution-context-4 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:26:04,474 - [INFO] - from play in play-internal-execution-context-4 
+Application started (Dev)
+
+2015-02-26 18:28:44,115 - [INFO] - from play in play-internal-execution-context-5 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:28:44,122 - [INFO] - from play in play-internal-execution-context-5 
+Application started (Dev)
+
+2015-02-26 18:33:41,709 - [INFO] - from play in play-internal-execution-context-6 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:33:41,714 - [INFO] - from play in play-internal-execution-context-6 
+Application started (Dev)
+
+2015-02-26 18:35:02,469 - [INFO] - from play in play-internal-execution-context-6 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:35:02,474 - [INFO] - from play in play-internal-execution-context-6 
+Application started (Dev)
+
+2015-02-26 18:35:13,204 - [INFO] - from play in play-internal-execution-context-6 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:35:13,209 - [INFO] - from play in play-internal-execution-context-6 
+Application started (Dev)
+
+2015-02-26 18:35:59,699 - [INFO] - from play in play-internal-execution-context-6 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:35:59,707 - [INFO] - from play in play-internal-execution-context-6 
+Application started (Dev)
+
+2015-02-26 18:36:23,205 - [INFO] - from play in play-internal-execution-context-6 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:36:23,210 - [INFO] - from play in play-internal-execution-context-6 
+Application started (Dev)
+
+2015-02-26 18:36:50,004 - [INFO] - from play in play-internal-execution-context-6 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:36:50,009 - [INFO] - from play in play-internal-execution-context-6 
+Application started (Dev)
+
+2015-02-26 18:38:19,364 - [INFO] - from play in play-internal-execution-context-6 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:38:19,369 - [INFO] - from play in play-internal-execution-context-6 
+Application started (Dev)
+
+2015-02-26 18:38:54,339 - [INFO] - from play in play-internal-execution-context-6 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:38:54,345 - [INFO] - from play in play-internal-execution-context-6 
+Application started (Dev)
+
+2015-02-26 18:39:20,869 - [INFO] - from play in play-internal-execution-context-6 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:39:20,874 - [INFO] - from play in play-internal-execution-context-6 
+Application started (Dev)
+
+2015-02-26 18:39:25,115 - [INFO] - from play in play-internal-execution-context-9 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:39:25,120 - [INFO] - from play in play-internal-execution-context-9 
+Application started (Dev)
+
+2015-02-26 18:40:12,546 - [ERROR] - from application in New I/O worker #4 
+
+
+! @6lajnmf8l - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[Invalid '@' symbol]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-02-26 18:40:24,130 - [ERROR] - from application in New I/O worker #8 
+
+
+! @6lajnn6c9 - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[Invalid '@' symbol]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-02-26 18:40:32,566 - [INFO] - from play in play-internal-execution-context-6 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:40:32,571 - [INFO] - from play in play-internal-execution-context-6 
+Application started (Dev)
+
+2015-02-26 18:40:49,622 - [INFO] - from play in play-internal-execution-context-6 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:40:49,626 - [INFO] - from play in play-internal-execution-context-6 
+Application started (Dev)
+
+2015-02-26 18:41:08,598 - [INFO] - from play in play-internal-execution-context-11 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:41:08,602 - [INFO] - from play in play-internal-execution-context-11 
+Application started (Dev)
+
+2015-02-26 18:41:32,674 - [INFO] - from play in play-internal-execution-context-11 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:41:32,680 - [INFO] - from play in play-internal-execution-context-11 
+Application started (Dev)
+
+2015-02-26 18:41:58,878 - [INFO] - from play in play-internal-execution-context-11 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:41:58,883 - [INFO] - from play in play-internal-execution-context-11 
+Application started (Dev)
+
+2015-02-26 18:43:04,216 - [INFO] - from play in play-internal-execution-context-11 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:43:04,221 - [INFO] - from play in play-internal-execution-context-11 
+Application started (Dev)
+
+2015-02-26 18:43:25,244 - [INFO] - from play in play-internal-execution-context-11 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:43:25,248 - [INFO] - from play in play-internal-execution-context-11 
+Application started (Dev)
+
+2015-02-26 18:44:39,075 - [INFO] - from play in play-internal-execution-context-14 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:44:39,081 - [INFO] - from play in play-internal-execution-context-14 
+Application started (Dev)
+
+2015-02-26 18:47:38,262 - [INFO] - from play in play-internal-execution-context-14 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:47:38,266 - [INFO] - from play in play-internal-execution-context-14 
+Application started (Dev)
+
+2015-02-26 18:48:30,851 - [INFO] - from play in play-internal-execution-context-14 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:48:30,855 - [INFO] - from play in play-internal-execution-context-14 
+Application started (Dev)
+
+2015-02-26 18:50:08,791 - [INFO] - from play in play-internal-execution-context-14 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:50:08,795 - [INFO] - from play in play-internal-execution-context-14 
+Application started (Dev)
+
+2015-02-26 18:52:03,803 - [INFO] - from play in play-internal-execution-context-14 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:52:03,812 - [INFO] - from play in play-internal-execution-context-14 
+Application started (Dev)
+
+2015-02-26 18:52:31,098 - [INFO] - from play in play-internal-execution-context-17 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:52:31,102 - [INFO] - from play in play-internal-execution-context-17 
+Application started (Dev)
+
+2015-02-26 18:52:40,403 - [INFO] - from play in play-internal-execution-context-17 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:52:40,408 - [INFO] - from play in play-internal-execution-context-17 
+Application started (Dev)
+
+2015-02-26 18:53:05,597 - [INFO] - from play in play-internal-execution-context-17 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:53:05,603 - [INFO] - from play in play-internal-execution-context-17 
+Application started (Dev)
+
+2015-02-26 18:55:01,049 - [INFO] - from play in play-internal-execution-context-17 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:55:01,056 - [INFO] - from play in play-internal-execution-context-17 
+Application started (Dev)
+
+2015-02-26 18:55:34,969 - [INFO] - from play in play-internal-execution-context-17 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:55:34,973 - [INFO] - from play in play-internal-execution-context-17 
+Application started (Dev)
+
+2015-02-26 18:57:07,636 - [INFO] - from play in play-internal-execution-context-21 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 18:57:07,641 - [INFO] - from play in play-internal-execution-context-21 
+Application started (Dev)
+
+2015-02-26 19:00:21,764 - [INFO] - from play in play-internal-execution-context-21 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:00:21,769 - [INFO] - from play in play-internal-execution-context-21 
+Application started (Dev)
+
+2015-02-26 19:01:01,474 - [INFO] - from play in play-internal-execution-context-21 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:01:01,480 - [INFO] - from play in play-internal-execution-context-21 
+Application started (Dev)
+
+2015-02-26 19:01:19,883 - [INFO] - from play in play-internal-execution-context-21 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:01:19,888 - [INFO] - from play in play-internal-execution-context-21 
+Application started (Dev)
+
+2015-02-26 19:09:50,002 - [INFO] - from play in play-internal-execution-context-21 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:09:50,007 - [INFO] - from play in play-internal-execution-context-21 
+Application started (Dev)
+
+2015-02-26 19:10:19,494 - [INFO] - from play in play-internal-execution-context-21 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:10:19,498 - [INFO] - from play in play-internal-execution-context-21 
+Application started (Dev)
+
+2015-02-26 19:10:33,140 - [INFO] - from play in play-internal-execution-context-21 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:10:33,145 - [INFO] - from play in play-internal-execution-context-21 
+Application started (Dev)
+
+2015-02-26 19:11:56,467 - [INFO] - from play in play-internal-execution-context-21 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:11:56,489 - [INFO] - from play in play-internal-execution-context-21 
+Application started (Dev)
+
+2015-02-26 19:12:33,099 - [INFO] - from play in play-internal-execution-context-21 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:12:33,102 - [INFO] - from play in play-internal-execution-context-21 
+Application started (Dev)
+
+2015-02-26 19:12:45,407 - [INFO] - from play in play-internal-execution-context-21 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:12:45,411 - [INFO] - from play in play-internal-execution-context-21 
+Application started (Dev)
+
+2015-02-26 19:13:11,594 - [INFO] - from play in play-internal-execution-context-21 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:13:11,605 - [INFO] - from play in play-internal-execution-context-21 
+Application started (Dev)
+
+2015-02-26 19:13:31,499 - [INFO] - from play in play-internal-execution-context-21 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:13:31,504 - [INFO] - from play in play-internal-execution-context-21 
+Application started (Dev)
+
+2015-02-26 19:13:43,559 - [INFO] - from play in play-internal-execution-context-30 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:13:43,564 - [INFO] - from play in play-internal-execution-context-30 
+Application started (Dev)
+
+2015-02-26 19:14:05,981 - [INFO] - from play in play-internal-execution-context-31 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:14:05,985 - [INFO] - from play in play-internal-execution-context-31 
+Application started (Dev)
+
+2015-02-26 19:17:59,093 - [INFO] - from play in play-internal-execution-context-31 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:17:59,099 - [INFO] - from play in play-internal-execution-context-31 
+Application started (Dev)
+
+2015-02-26 19:19:03,485 - [INFO] - from play in play-internal-execution-context-31 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:19:03,490 - [INFO] - from play in play-internal-execution-context-31 
+Application started (Dev)
+
+2015-02-26 19:19:23,741 - [INFO] - from play in play-internal-execution-context-31 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:19:23,746 - [INFO] - from play in play-internal-execution-context-31 
+Application started (Dev)
+
+2015-02-26 19:20:10,752 - [INFO] - from play in play-internal-execution-context-31 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:20:10,757 - [INFO] - from play in play-internal-execution-context-31 
+Application started (Dev)
+
+2015-02-26 19:20:35,227 - [INFO] - from play in play-internal-execution-context-31 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:20:35,230 - [INFO] - from play in play-internal-execution-context-31 
+Application started (Dev)
+
+2015-02-26 19:21:11,277 - [INFO] - from play in play-internal-execution-context-35 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:21:11,281 - [INFO] - from play in play-internal-execution-context-35 
+Application started (Dev)
+
+2015-02-26 19:21:21,215 - [INFO] - from play in play-internal-execution-context-35 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:21:21,221 - [INFO] - from play in play-internal-execution-context-35 
+Application started (Dev)
+
+2015-02-26 19:23:02,365 - [INFO] - from play in play-internal-execution-context-35 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:23:02,370 - [INFO] - from play in play-internal-execution-context-35 
+Application started (Dev)
+
+2015-02-26 19:25:48,198 - [INFO] - from play in play-internal-execution-context-37 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-26 19:25:48,202 - [INFO] - from play in play-internal-execution-context-37 
+Application started (Dev)
+

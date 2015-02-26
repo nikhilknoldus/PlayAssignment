@@ -1,0 +1,15 @@
+@(empForm: Form[Employee])
+
+@import helper._
+
+@inputText(empForm("name"), '_label -> "Name", 'class -> "form-control")
+@inputText(empForm("password"), '_label -> "Password", 'class -> "form-control")
+@inputText(empForm("address"), '_label -> "Address", 'class -> "form-control")
+@inputText(empForm("company"), '_label -> "Company", 'class -> "form-control")
+@inputText(empForm("email"), '_label -> "Email", 'class -> "form-control")
+@inputText(empForm("phone"), '_label -> "Phone", 'class -> "form-control")
+
+
+
+
+

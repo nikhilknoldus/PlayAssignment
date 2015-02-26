@@ -1,0 +1,24 @@
+@(id: Int, employeeForm: Form[Employee])
+
+@import helper._
+
+@implicitFieldConstructor = @{ FieldConstructor(twitterBootstrapInput.f) }
+
+@main("userupdate") {
+    
+    <!-- Begin page content -->
+	<div class="container">
+		<div class="page-header">
+			<h1>Edit Employee</h1>
+		</div>
+		
+		@form(routes.Application.userupdateEmp(id)) {
+			<fieldset>
+				@formElements(employeeForm)
+			</fieldset>
+					<div class="actions"> 
+	     					<input type="submit" value="update this employee" class="btn btn-danger">
+					</div>
+		}
+	</div>
+}

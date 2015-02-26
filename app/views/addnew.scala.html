@@ -1,0 +1,62 @@
+@* addnew Template File *@
+@import helper._
+
+@(employeeForm : Form[Employee])
+
+@implicitFieldConstructor = @{ FieldConstructor(twitterBootstrapInput.f)}
+
+@main("addnew"){
+<div>
+	<style type="text/css">
+		.panelbackground{
+						background-color: black;
+						}
+	</style>
+	
+	<div class="col-sm-6 col-xs-8 col-dm-6">
+		<div class="panel panel-primary">
+  			<div class="panelbackground panel-heading">New Registration</div>
+  				<div class="panel-body">
+					@form(routes.Application.insert()){
+         			<fieldset>@formElements(employeeForm)</fieldset>         
+                     <div class="actions">
+                        <input type="submit" value="Register" class="btn btn-primary"> or
+                        <a href="@routes.Application.index" class="btn btn-default">Cancel</a>
+               		</div>
+          			}
+				}
+ 				</div>
+ 		</div>
+ 	</div>
+ 	<div class="col-sm-6 col-xs-4 col-dm-6">
+ 	
+ 	<div class="thumbnail">
+ 	
+      <img src='@routes.Assets.at("images/img_1.png")' alt="...">
+      <div class="caption">
+        <h3>Register with us for opportunities</h3>
+        <p><a href="#" class="btn btn-primary" role="button">Contribute</a> <a href="#" class="btn btn-default" role="button">Share</a></p>
+      </div>
+    </div>
+    
+ 	<div class="thumbnail">
+      <img src='@routes.Assets.at("images/img_2.jpg")' alt="...">
+      <div class="caption">
+        <h3>Knowledge Tree</h3>
+        <p></p>
+        <p><a href="#" class="btn btn-primary" role="button">Grow the tree of knowledge</a> <a href="#" class="btn btn-default" role="button">Share</a></p>
+      </div>
+    </div>
+    
+ 	<div class="thumbnail">
+      <img src="..." alt="...">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>   
+  </div> 	
+ </div>
+
+

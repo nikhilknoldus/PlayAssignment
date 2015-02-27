@@ -313,3 +313,159 @@ database [default] connected at jdbc:postgresql://localhost:5432/test
 2015-02-27 17:08:34,807 - [INFO] - from play in play-internal-execution-context-15 
 Application started (Dev)
 
+2015-02-27 22:57:37,093 - [INFO] - from play in play-internal-execution-context-15 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 22:57:37,098 - [INFO] - from play in play-internal-execution-context-15 
+Application started (Dev)
+
+2015-02-27 22:59:45,683 - [INFO] - from play in play-internal-execution-context-15 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 22:59:45,691 - [INFO] - from play in play-internal-execution-context-15 
+Application started (Dev)
+
+2015-02-27 23:01:08,376 - [INFO] - from play in play-internal-execution-context-15 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:01:08,381 - [INFO] - from play in play-internal-execution-context-15 
+Application started (Dev)
+
+2015-02-27 23:06:26,864 - [INFO] - from play in play-internal-execution-context-23 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:06:26,868 - [INFO] - from play in play-internal-execution-context-23 
+Application started (Dev)
+
+2015-02-27 23:07:44,599 - [INFO] - from play in play-internal-execution-context-23 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:07:44,603 - [INFO] - from play in play-internal-execution-context-23 
+Application started (Dev)
+
+2015-02-27 23:08:08,272 - [INFO] - from play in play-internal-execution-context-23 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:08:08,276 - [INFO] - from play in play-internal-execution-context-23 
+Application started (Dev)
+
+2015-02-27 23:09:28,684 - [INFO] - from play in play-internal-execution-context-23 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:09:28,688 - [INFO] - from play in play-internal-execution-context-23 
+Application started (Dev)
+
+2015-02-27 23:16:22,396 - [INFO] - from play in play-internal-execution-context-23 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:16:22,402 - [INFO] - from play in play-internal-execution-context-23 
+Application started (Dev)
+
+2015-02-27 23:18:25,048 - [INFO] - from play in play-internal-execution-context-23 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:18:25,052 - [INFO] - from play in play-internal-execution-context-23 
+Application started (Dev)
+
+2015-02-27 23:19:19,856 - [INFO] - from play in play-internal-execution-context-23 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:19:19,860 - [INFO] - from play in play-internal-execution-context-23 
+Application started (Dev)
+
+2015-02-27 23:20:09,083 - [INFO] - from play in play-internal-execution-context-23 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:20:09,087 - [INFO] - from play in play-internal-execution-context-23 
+Application started (Dev)
+
+2015-02-27 23:20:25,612 - [INFO] - from play in play-internal-execution-context-23 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:20:25,617 - [INFO] - from play in play-internal-execution-context-23 
+Application started (Dev)
+
+2015-02-27 23:20:47,459 - [INFO] - from play in play-internal-execution-context-23 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:20:47,463 - [INFO] - from play in play-internal-execution-context-23 
+Application started (Dev)
+
+2015-02-27 23:21:16,476 - [INFO] - from play in play-internal-execution-context-23 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:21:16,480 - [INFO] - from play in play-internal-execution-context-23 
+Application started (Dev)
+
+2015-02-27 23:21:27,800 - [INFO] - from play in play-internal-execution-context-23 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:21:27,805 - [INFO] - from play in play-internal-execution-context-23 
+Application started (Dev)
+
+2015-02-27 23:22:05,360 - [INFO] - from play in play-internal-execution-context-23 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:22:05,365 - [INFO] - from play in play-internal-execution-context-23 
+Application started (Dev)
+
+2015-02-27 23:25:03,556 - [INFO] - from play in play-internal-execution-context-23 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:25:03,560 - [INFO] - from play in play-internal-execution-context-23 
+Application started (Dev)
+
+2015-02-27 23:25:39,882 - [INFO] - from play in play-internal-execution-context-23 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:25:39,888 - [INFO] - from play in play-internal-execution-context-23 
+Application started (Dev)
+
+2015-02-27 23:36:07,711 - [INFO] - from play in play-internal-execution-context-26 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:36:07,715 - [INFO] - from play in play-internal-execution-context-26 
+Application started (Dev)
+
+2015-02-27 23:39:15,755 - [INFO] - from play in play-internal-execution-context-26 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:39:15,759 - [INFO] - from play in play-internal-execution-context-26 
+Application started (Dev)
+
+2015-02-27 23:39:38,945 - [INFO] - from play in play-internal-execution-context-26 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:39:38,953 - [INFO] - from play in play-internal-execution-context-26 
+Application started (Dev)
+
+2015-02-27 23:39:46,364 - [INFO] - from play in play-internal-execution-context-26 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:39:46,369 - [INFO] - from play in play-internal-execution-context-26 
+Application started (Dev)
+
+2015-02-27 23:40:11,044 - [INFO] - from play in play-internal-execution-context-26 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:40:11,048 - [INFO] - from play in play-internal-execution-context-26 
+Application started (Dev)
+
+2015-02-27 23:40:29,234 - [INFO] - from play in play-internal-execution-context-26 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:40:29,239 - [INFO] - from play in play-internal-execution-context-26 
+Application started (Dev)
+
+2015-02-27 23:41:21,263 - [INFO] - from play in play-internal-execution-context-26 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:41:21,270 - [INFO] - from play in play-internal-execution-context-26 
+Application started (Dev)
+
+2015-02-27 23:42:43,937 - [INFO] - from play in play-internal-execution-context-26 
+database [default] connected at jdbc:postgresql://localhost:5432/test
+
+2015-02-27 23:42:43,941 - [INFO] - from play in play-internal-execution-context-26 
+Application started (Dev)
+

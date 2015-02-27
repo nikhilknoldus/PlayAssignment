@@ -53,9 +53,115 @@ Seq[Any](format.raw/*2.14*/("""
 						Meetups</li>	
 				</ul>
 			</div>
-	 </div>
-	</div>	
+			
+			  <!-- Poll for logged in Knolx -->
+	
+       	<div class="panel panel-primary">
+								<div class="panel-heading">
+									<h3 class="panel-title">
+										<span class="glyphicon glyphicon-arrow-right"></span>How Helpful Knolx to you ?
+										</p>
+									</h3>
+								</div>
+								<div class="panel-body">
+									<ul class="list-group">
+										<li class="list-group-item">
+											<div class="radio">
+												<label> <input type="radio" name="optionsRadios">
+													Good
+												</label>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<div class="radio">
+												<label> <input type="radio" name="optionsRadios">
+													Excellent
+												</label>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<div class="radio">
+												<label> <input type="radio" name="optionsRadios">
+													Nice
+												</label>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<div class="radio">
+												<label> <input type="radio" name="optionsRadios">
+													Not Satisfied
+												</label>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<div class="radio">
+												<label> <input type="radio" name="optionsRadios">
+													Can Be Improved
+												</label>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="panel-footer">
+									<button type="button" class="btn btn-primary btn-sm">
+										Vote</button>
+									<a href="#">View Result</a>
+								</div>
+							</div>
+					 </div>
+				</div>	
+	
 	<div class="col-sm-7 col-xs-12 col-md-7">
+	   	<div class="panel-body">
+			<div class="panel-body">
+      				<div class="panel-heading">
+        	 			<h3 class="panel-title">Your Skill Set</h3>
+     				</div>
+      				<div class="panel-body"> 
+        				 <div class="progress">
+ 		 					<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+    							BootStrap<span class="sr-only">45% Complete</span>
+  							</div>
+	 					</div>
+   		 			</div>
+   		 			<div class="panel-body"> 
+        				 <div class="progress">
+ 		 					<div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 55%">
+    							Scala<span class="sr-only">45% Complete</span>
+  							</div>
+	 					</div>
+   		 			</div>
+   		 				<div class="panel-body"> 
+        				 <div class="progress">
+ 		 					<div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+    						Play Framework	<span class="sr-only">45% Complete</span>
+  							</div>
+	 					</div>
+   		 			  </div>
+   		 			  	<div class="panel-body"> 
+        				 <div class="progress">
+ 		 					<div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+    						AngularJs<span class="sr-only">45% Complete</span>
+  							</div>
+	 					</div>
+   		 			</div>
+   		 			<div class="panel-body"> 
+        				 <div class="progress">
+ 		 					<div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 25%">
+    						Slick<span class="sr-only">45% Complete</span>
+  							</div>
+	 					</div>
+   		 			</div>
+   		 				<div class="panel-body"> 
+        				 <div class="progress">
+ 		 					<div class="progress-bar progress-bar-striped progress-bar-warining active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+    						CSS3 & Html5<span class="sr-only">45% Complete</span>
+  							</div>
+	 					</div>
+   		 			</div>
+    	 	</div>
+	
+	<!-- According starting here -->
 	<div class="panel-body">
 			<div class="panel-body">
 	   <div class="panel-group" id="accordion">
@@ -125,31 +231,28 @@ Seq[Any](format.raw/*2.14*/("""
       </div>
    </div>
 </div>
-<script type="text/javascript">
-	$(function() """),format.raw/*109.15*/("""{"""),format.raw/*109.16*/("""
-		"""),format.raw/*110.3*/("""$('#collapseFour').collapse("""),format.raw/*110.31*/("""{"""),format.raw/*110.32*/("""
-			"""),format.raw/*111.4*/("""toggle : false
-		"""),format.raw/*112.3*/("""}"""),format.raw/*112.4*/(""")
-	"""),format.raw/*113.2*/("""}"""),format.raw/*113.3*/(""");
-	$(function() """),format.raw/*114.15*/("""{"""),format.raw/*114.16*/("""
-		"""),format.raw/*115.3*/("""$('#collapseTwo').collapse('show')
-	"""),format.raw/*116.2*/("""}"""),format.raw/*116.3*/(""");
-	$(function() """),format.raw/*117.15*/("""{"""),format.raw/*117.16*/("""
-		"""),format.raw/*118.3*/("""$('#collapseThree').collapse('toggle')
-	"""),format.raw/*119.2*/("""}"""),format.raw/*119.3*/(""");
-	$(function() """),format.raw/*120.15*/("""{"""),format.raw/*120.16*/("""
-		"""),format.raw/*121.3*/("""$('#collapseOne').collapse('hide')
-	"""),format.raw/*122.2*/("""}"""),format.raw/*122.3*/(""");
-</script> 
-	
-	</div></div></div></div>
- </div>
+		<script type="text/javascript">
+				$(function() """),format.raw/*215.18*/("""{"""),format.raw/*215.19*/("""
+					"""),format.raw/*216.6*/("""$('#collapseFour').collapse("""),format.raw/*216.34*/("""{"""),format.raw/*216.35*/("""
+						"""),format.raw/*217.7*/("""toggle : false
+					"""),format.raw/*218.6*/("""}"""),format.raw/*218.7*/(""")
+				"""),format.raw/*219.5*/("""}"""),format.raw/*219.6*/(""");
+				$(function() """),format.raw/*220.18*/("""{"""),format.raw/*220.19*/("""
+					"""),format.raw/*221.6*/("""$('#collapseTwo').collapse('show')
+				"""),format.raw/*222.5*/("""}"""),format.raw/*222.6*/(""");
+				$(function() """),format.raw/*223.18*/("""{"""),format.raw/*223.19*/("""
+					"""),format.raw/*224.6*/("""$('#collapseThree').collapse('toggle')
+				"""),format.raw/*225.5*/("""}"""),format.raw/*225.6*/(""");
+				$(function() """),format.raw/*226.18*/("""{"""),format.raw/*226.19*/("""
+					"""),format.raw/*227.6*/("""$('#collapseOne').collapse('hide')
+							"""),format.raw/*228.8*/("""}"""),format.raw/*228.9*/(""");
+		 </script> 
+	</div>
+</div>   
+   		
+      </div>
+   </div>
 </div>
-   	
-  </div>
-</div>
-	
-	
 """)))}))}
   }
 
@@ -162,11 +265,11 @@ Seq[Any](format.raw/*2.14*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Fri Feb 27 17:05:49 IST 2015
+                  DATE: Fri Feb 27 23:42:43 IST 2015
                   SOURCE: /home/knoldus/workspace/PlayAssignment/app/views/userhome.scala.html
-                  HASH: bf85e0c39e6b8d699456eec19fd87be412a54724
-                  MATRIX: 553->30|653->42|681->45|710->66|748->67|775->68|929->196|954->201|4360->3578|4390->3579|4421->3582|4478->3610|4508->3611|4540->3615|4585->3632|4614->3633|4645->3636|4674->3637|4720->3654|4750->3655|4781->3658|4845->3694|4874->3695|4920->3712|4950->3713|4981->3716|5049->3756|5078->3757|5124->3774|5154->3775|5185->3778|5249->3814|5278->3815
-                  LINES: 19->2|22->2|24->4|24->4|24->4|25->5|28->8|28->8|129->109|129->109|130->110|130->110|130->110|131->111|132->112|132->112|133->113|133->113|134->114|134->114|135->115|136->116|136->116|137->117|137->117|138->118|139->119|139->119|140->120|140->120|141->121|142->122|142->122
+                  HASH: e307d67aa9d55b85f23b5c8f70788741dafa5e85
+                  MATRIX: 553->30|653->42|681->45|710->66|748->67|775->68|929->196|954->201|8354->7572|8384->7573|8418->7579|8475->7607|8505->7608|8540->7615|8588->7635|8617->7636|8651->7642|8680->7643|8729->7663|8759->7664|8793->7670|8860->7709|8889->7710|8938->7730|8968->7731|9002->7737|9073->7780|9102->7781|9151->7801|9181->7802|9215->7808|9285->7850|9314->7851
+                  LINES: 19->2|22->2|24->4|24->4|24->4|25->5|28->8|28->8|235->215|235->215|236->216|236->216|236->216|237->217|238->218|238->218|239->219|239->219|240->220|240->220|241->221|242->222|242->222|243->223|243->223|244->224|245->225|245->225|246->226|246->226|247->227|248->228|248->228
                   -- GENERATED --
               */
           

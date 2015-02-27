@@ -63,7 +63,7 @@ object Application extends Controller {
 
   def userhome: Action[AnyContent] = Action { implicit request =>
     request.session.get("usr").map { usr =>
-      Ok(views.html.userhome("Hi," + usr))
+      Ok(views.html.userhome("Hi, "+usr))
     }.getOrElse {
       Ok(views.html.index())
     }
@@ -132,7 +132,7 @@ object Application extends Controller {
 
   def index: Action[AnyContent] = Action { implicit rs =>
     rs.session.get("usr").map { usr =>
-      Ok(views.html.userhome("Hi," + usr))
+      Ok(views.html.userhome("Hi" + usr))
     }.getOrElse {
       Ok(views.html.index())
     }

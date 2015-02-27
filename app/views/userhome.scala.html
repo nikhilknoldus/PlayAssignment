@@ -1,9 +1,133 @@
 @* userhome Template File *@
 @(param: Any)
-@param
 
 @usermain("User Home"){
+<div class="row">
+  <div class="panel panel-primary">
+  	 <div class="panel-heading">
+      	<h3 class="panel-title">Welcome - @param</h3>
+   	</div>
+   <div class="col-sm-5 col-xs-12 col-md-5">
+   	<div class="panel-body">
+			<div class="panel-body">
+				<ul class="list-group">
+					<a href="#" class="list-group-item active">
+						<h4 class="list-group-item-heading">Profile</h4>
+					</a>
+					<li class="list-group-item">Update Profile</li>
+					<li class="list-group-item">Your Sessions</li>
+					<li class="list-group-item">Messages<span class="badge">12</span></li>
+					<li class="list-group-item"><span class="badge">New</span>
+						Request Session</li>					
+				</ul>
+			</div>
+	    	<div class="panel-body">
+				<ul class="list-group">
+					<a href="#" class="list-group-item active">
+						<h4 class="list-group-item-heading">Read</h4>
+					</a>
+					<li class="list-group-item">Session List</li>
+					<li class="list-group-item">Session Schedules</li>
+					<li class="list-group-item">Best Knolx<span class="badge">7</span></li>
+					<li class="list-group-item"><span class="badge">New</span>
+						Meetups</li>	
+				</ul>
+			</div>
+	 </div>
+	</div>	
+	<div class="col-sm-7 col-xs-12 col-md-7">
+	<div class="panel-body">
+			<div class="panel-body">
+	   <div class="panel-group" id="accordion">
+   <div class="panel panel-default">
+      <div class="panel-heading">
+         <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#collapseOne">
+            Latest Technology Trends
+            </a>
+         </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse in">
+         <div class="panel-body">
+            Knoldus strongly believes in strongly sharing knowledge. We conduct knowledge sessions every week.
+         </div>
+      </div>
+   </div>
+   <div class="panel panel-success">
+      <div class="panel-heading">
+         <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#collapseTwo">
+              Live Demos
+            </a>
+         </h4>
+      </div>
+      <div id="collapseTwo" class="panel-collapse collapse">
+         <div class="panel-body">
+           Theory does not work every time, so in every session live practicals takes place.
+         </div>
+      </div>
+   </div>
+   <div class="panel panel-info">
+      <div class="panel-heading">
+         <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#collapseThree">
+               Developers
+            </a>
+         </h4>
+      </div>
+      <div id="collapseThree" class="panel-collapse collapse">
+         <div class="panel-body">
+          Developer & Designers share their hard earned experience in session
+                  Developers<br>
+               SCALA<br>
+               PLAY<br>
+               AKKA<br>
+               ANGULAR JS
+         </div>
+      </div>
+   </div>
+   <div class="panel panel-warning">
+      <div class="panel-heading">
+         <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+               href="#collapseFour">
+              You can be a part 
+            </a>
+         </h4>
+      </div>
+      <div id="collapseFour" class="panel-collapse collapse">
+         <div class="panel-body">
+           If you want to share your experience, you are most welcomed
+         </div>
+      </div>
+   </div>
+</div>
+<script type="text/javascript">
+	$(function() {
+		$('#collapseFour').collapse({
+			toggle : false
+		})
+	});
+	$(function() {
+		$('#collapseTwo').collapse('show')
+	});
+	$(function() {
+		$('#collapseThree').collapse('toggle')
+	});
+	$(function() {
+		$('#collapseOne').collapse('hide')
+	});
+</script> 
 	
-	<h1>@param</h1>
+	</div></div></div></div>
+ </div>
+</div>
+   	
+  </div>
+</div>
+	
 	
 }

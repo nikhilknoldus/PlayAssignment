@@ -1,856 +1,315 @@
-2015-02-26 23:36:20,294 - [INFO] - from play in pool-4-thread-3 
+2015-02-27 14:37:24,121 - [INFO] - from play in pool-4-thread-2 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2015-02-26 23:36:22,411 - [INFO] - from play in play-internal-execution-context-1 
+2015-02-27 14:38:31,150 - [INFO] - from play in play-internal-execution-context-1 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-26 23:36:22,503 - [INFO] - from play in play-internal-execution-context-1 
+2015-02-27 14:38:32,783 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2015-02-26 23:37:35,785 - [INFO] - from play in play-internal-execution-context-1 
+2015-02-27 15:36:23,506 - [INFO] - from play in play-internal-execution-context-1 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-26 23:37:35,791 - [INFO] - from play in play-internal-execution-context-1 
+2015-02-27 15:36:23,515 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2015-02-26 23:50:21,050 - [INFO] - from play in play-internal-execution-context-1 
+2015-02-27 15:36:42,282 - [INFO] - from play in play-internal-execution-context-1 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-26 23:50:21,056 - [INFO] - from play in play-internal-execution-context-1 
+2015-02-27 15:36:42,289 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2015-02-27 00:03:48,144 - [INFO] - from play in play-internal-execution-context-1 
+2015-02-27 15:41:07,950 - [INFO] - from play in play-internal-execution-context-3 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:03:48,152 - [INFO] - from play in play-internal-execution-context-1 
+2015-02-27 15:41:07,957 - [INFO] - from play in play-internal-execution-context-3 
 Application started (Dev)
 
-2015-02-27 00:06:30,939 - [INFO] - from play in play-internal-execution-context-1 
+2015-02-27 15:41:37,709 - [INFO] - from play in play-internal-execution-context-3 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:06:30,945 - [INFO] - from play in play-internal-execution-context-1 
+2015-02-27 15:41:37,714 - [INFO] - from play in play-internal-execution-context-3 
 Application started (Dev)
 
-2015-02-27 00:08:16,090 - [INFO] - from play in play-internal-execution-context-1 
+2015-02-27 15:46:46,498 - [INFO] - from play in play-internal-execution-context-3 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:08:16,096 - [INFO] - from play in play-internal-execution-context-1 
+2015-02-27 15:46:46,502 - [INFO] - from play in play-internal-execution-context-3 
 Application started (Dev)
 
-2015-02-27 00:08:41,996 - [INFO] - from play in play-internal-execution-context-1 
+2015-02-27 15:49:47,312 - [INFO] - from play in play-internal-execution-context-3 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:08:42,002 - [INFO] - from play in play-internal-execution-context-1 
+2015-02-27 15:49:47,317 - [INFO] - from play in play-internal-execution-context-3 
 Application started (Dev)
 
-2015-02-27 00:14:38,549 - [INFO] - from play in play-internal-execution-context-1 
+2015-02-27 15:53:31,056 - [INFO] - from play in play-internal-execution-context-3 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:14:38,556 - [INFO] - from play in play-internal-execution-context-1 
+2015-02-27 15:53:31,061 - [INFO] - from play in play-internal-execution-context-3 
 Application started (Dev)
 
-2015-02-27 00:15:05,951 - [INFO] - from play in play-internal-execution-context-1 
+2015-02-27 15:53:57,459 - [INFO] - from play in play-internal-execution-context-3 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:15:05,956 - [INFO] - from play in play-internal-execution-context-1 
+2015-02-27 15:53:57,465 - [INFO] - from play in play-internal-execution-context-3 
 Application started (Dev)
 
-2015-02-27 00:15:40,459 - [INFO] - from play in play-internal-execution-context-1 
+2015-02-27 15:54:50,902 - [INFO] - from play in play-internal-execution-context-7 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:15:40,465 - [INFO] - from play in play-internal-execution-context-1 
+2015-02-27 15:54:50,907 - [INFO] - from play in play-internal-execution-context-7 
 Application started (Dev)
 
-2015-02-27 00:19:21,281 - [INFO] - from play in play-internal-execution-context-3 
+2015-02-27 15:55:47,635 - [INFO] - from play in play-internal-execution-context-8 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:19:21,286 - [INFO] - from play in play-internal-execution-context-3 
+2015-02-27 15:55:47,640 - [INFO] - from play in play-internal-execution-context-8 
 Application started (Dev)
 
-2015-02-27 00:19:36,606 - [INFO] - from play in play-internal-execution-context-3 
+2015-02-27 15:55:59,213 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:19:36,610 - [INFO] - from play in play-internal-execution-context-3 
+2015-02-27 15:55:59,218 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:28:27,351 - [INFO] - from play in play-internal-execution-context-6 
+2015-02-27 16:04:17,193 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:28:27,358 - [INFO] - from play in play-internal-execution-context-6 
+2015-02-27 16:04:17,198 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:32:32,483 - [INFO] - from play in play-internal-execution-context-6 
+2015-02-27 16:09:58,117 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:32:32,488 - [INFO] - from play in play-internal-execution-context-6 
+2015-02-27 16:09:58,122 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:33:05,940 - [INFO] - from play in play-internal-execution-context-8 
+2015-02-27 16:12:13,791 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:33:05,944 - [INFO] - from play in play-internal-execution-context-8 
+2015-02-27 16:12:13,798 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:33:20,989 - [INFO] - from play in play-internal-execution-context-8 
+2015-02-27 16:13:26,722 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:33:20,998 - [INFO] - from play in play-internal-execution-context-8 
+2015-02-27 16:13:26,732 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:34:08,803 - [INFO] - from play in play-internal-execution-context-8 
+2015-02-27 16:13:57,810 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:34:08,809 - [INFO] - from play in play-internal-execution-context-8 
+2015-02-27 16:13:57,815 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:34:25,185 - [INFO] - from play in play-internal-execution-context-8 
+2015-02-27 16:15:17,654 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:34:25,193 - [INFO] - from play in play-internal-execution-context-8 
+2015-02-27 16:15:17,658 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:34:40,476 - [INFO] - from play in play-internal-execution-context-8 
+2015-02-27 16:17:03,562 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:34:40,482 - [INFO] - from play in play-internal-execution-context-8 
+2015-02-27 16:17:03,566 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:34:55,924 - [INFO] - from play in play-internal-execution-context-8 
+2015-02-27 16:18:37,059 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:34:55,930 - [INFO] - from play in play-internal-execution-context-8 
+2015-02-27 16:18:37,065 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:35:03,841 - [INFO] - from play in play-internal-execution-context-8 
+2015-02-27 16:19:18,766 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:35:03,846 - [INFO] - from play in play-internal-execution-context-8 
+2015-02-27 16:19:18,770 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:35:39,507 - [INFO] - from play in play-internal-execution-context-8 
+2015-02-27 16:19:45,003 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:35:39,511 - [INFO] - from play in play-internal-execution-context-8 
+2015-02-27 16:19:45,007 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:35:50,435 - [INFO] - from play in play-internal-execution-context-8 
+2015-02-27 16:21:04,335 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:35:50,439 - [INFO] - from play in play-internal-execution-context-8 
+2015-02-27 16:21:04,342 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:36:31,793 - [INFO] - from play in play-internal-execution-context-8 
+2015-02-27 16:21:25,602 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:36:31,797 - [INFO] - from play in play-internal-execution-context-8 
+2015-02-27 16:21:25,607 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:37:18,183 - [INFO] - from play in play-internal-execution-context-16 
+2015-02-27 16:23:23,473 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:37:18,187 - [INFO] - from play in play-internal-execution-context-16 
+2015-02-27 16:23:23,478 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:37:38,006 - [INFO] - from play in play-internal-execution-context-16 
+2015-02-27 16:23:37,778 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:37:38,012 - [INFO] - from play in play-internal-execution-context-16 
+2015-02-27 16:23:37,783 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:37:53,160 - [INFO] - from play in play-internal-execution-context-16 
+2015-02-27 16:33:32,281 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:37:53,164 - [INFO] - from play in play-internal-execution-context-16 
+2015-02-27 16:33:32,287 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:43:25,104 - [INFO] - from play in play-internal-execution-context-16 
+2015-02-27 16:34:25,037 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:43:25,114 - [INFO] - from play in play-internal-execution-context-16 
+2015-02-27 16:34:25,041 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:44:04,714 - [INFO] - from play in play-internal-execution-context-16 
+2015-02-27 16:34:49,153 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:44:04,719 - [INFO] - from play in play-internal-execution-context-16 
+2015-02-27 16:34:49,158 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:44:52,773 - [INFO] - from play in play-internal-execution-context-16 
+2015-02-27 16:35:38,763 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:44:52,778 - [INFO] - from play in play-internal-execution-context-16 
+2015-02-27 16:35:38,769 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:47:21,428 - [INFO] - from play in play-internal-execution-context-16 
+2015-02-27 16:35:50,978 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:47:21,432 - [INFO] - from play in play-internal-execution-context-16 
+2015-02-27 16:35:50,983 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:47:53,571 - [INFO] - from play in play-internal-execution-context-16 
+2015-02-27 16:36:37,608 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:47:53,576 - [INFO] - from play in play-internal-execution-context-16 
+2015-02-27 16:36:37,614 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:48:28,455 - [INFO] - from play in play-internal-execution-context-16 
+2015-02-27 16:36:51,153 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:48:28,459 - [INFO] - from play in play-internal-execution-context-16 
+2015-02-27 16:36:51,158 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:49:15,556 - [INFO] - from play in play-internal-execution-context-16 
+2015-02-27 16:41:34,916 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:49:15,560 - [INFO] - from play in play-internal-execution-context-16 
+2015-02-27 16:41:34,922 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:50:14,624 - [INFO] - from play in play-internal-execution-context-20 
+2015-02-27 16:42:06,353 - [INFO] - from play in play-internal-execution-context-9 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:50:14,628 - [INFO] - from play in play-internal-execution-context-20 
+2015-02-27 16:42:06,357 - [INFO] - from play in play-internal-execution-context-9 
 Application started (Dev)
 
-2015-02-27 00:50:48,970 - [INFO] - from play in play-internal-execution-context-20 
+2015-02-27 16:43:00,477 - [INFO] - from play in play-internal-execution-context-15 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:50:48,977 - [INFO] - from play in play-internal-execution-context-20 
+2015-02-27 16:43:00,481 - [INFO] - from play in play-internal-execution-context-15 
 Application started (Dev)
 
-2015-02-27 00:52:08,226 - [INFO] - from play in play-internal-execution-context-20 
+2015-02-27 16:44:06,131 - [INFO] - from play in play-internal-execution-context-15 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:52:08,231 - [INFO] - from play in play-internal-execution-context-20 
+2015-02-27 16:44:06,135 - [INFO] - from play in play-internal-execution-context-15 
 Application started (Dev)
 
-2015-02-27 00:52:15,225 - [INFO] - from play in play-internal-execution-context-20 
+2015-02-27 16:45:23,372 - [INFO] - from play in play-internal-execution-context-15 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:52:15,229 - [INFO] - from play in play-internal-execution-context-20 
+2015-02-27 16:45:23,376 - [INFO] - from play in play-internal-execution-context-15 
 Application started (Dev)
 
-2015-02-27 00:52:38,509 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 16:53:30,963 - [INFO] - from play in play-internal-execution-context-15 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:52:38,514 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 16:53:30,968 - [INFO] - from play in play-internal-execution-context-15 
 Application started (Dev)
 
-2015-02-27 00:53:05,045 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 16:54:25,438 - [INFO] - from play in play-internal-execution-context-15 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:53:05,051 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 16:54:25,443 - [INFO] - from play in play-internal-execution-context-15 
 Application started (Dev)
 
-2015-02-27 00:53:54,543 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 16:55:18,427 - [INFO] - from play in play-internal-execution-context-15 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:53:54,548 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 16:55:18,432 - [INFO] - from play in play-internal-execution-context-15 
 Application started (Dev)
 
-2015-02-27 00:54:14,009 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 16:55:30,191 - [INFO] - from play in play-internal-execution-context-15 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:54:14,015 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 16:55:30,197 - [INFO] - from play in play-internal-execution-context-15 
 Application started (Dev)
 
-2015-02-27 00:58:04,478 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 16:56:01,257 - [INFO] - from play in play-internal-execution-context-15 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 00:58:04,482 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 16:56:01,262 - [INFO] - from play in play-internal-execution-context-15 
 Application started (Dev)
 
-2015-02-27 01:00:05,238 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 17:01:44,084 - [INFO] - from play in play-internal-execution-context-15 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 01:00:05,243 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 17:01:44,089 - [INFO] - from play in play-internal-execution-context-15 
 Application started (Dev)
 
-2015-02-27 01:00:45,951 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 17:02:10,336 - [INFO] - from play in play-internal-execution-context-15 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 01:00:45,956 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 17:02:10,341 - [INFO] - from play in play-internal-execution-context-15 
 Application started (Dev)
 
-2015-02-27 01:01:50,616 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 17:02:26,899 - [INFO] - from play in play-internal-execution-context-15 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 01:01:50,620 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 17:02:26,906 - [INFO] - from play in play-internal-execution-context-15 
 Application started (Dev)
 
-2015-02-27 01:02:36,923 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 17:03:49,371 - [INFO] - from play in play-internal-execution-context-15 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 01:02:36,929 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 17:03:49,375 - [INFO] - from play in play-internal-execution-context-15 
 Application started (Dev)
 
-2015-02-27 01:06:18,770 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 17:04:30,644 - [INFO] - from play in play-internal-execution-context-15 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 01:06:18,774 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 17:04:30,648 - [INFO] - from play in play-internal-execution-context-15 
 Application started (Dev)
 
-2015-02-27 01:07:34,401 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 17:05:49,657 - [INFO] - from play in play-internal-execution-context-15 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 01:07:34,406 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 17:05:49,661 - [INFO] - from play in play-internal-execution-context-15 
 Application started (Dev)
 
-2015-02-27 01:08:55,852 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 17:07:15,802 - [INFO] - from play in play-internal-execution-context-15 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 01:08:55,856 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 17:07:15,810 - [INFO] - from play in play-internal-execution-context-15 
 Application started (Dev)
 
-2015-02-27 01:09:44,239 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 17:07:50,194 - [INFO] - from play in play-internal-execution-context-15 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 01:09:44,244 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 17:07:50,199 - [INFO] - from play in play-internal-execution-context-15 
 Application started (Dev)
 
-2015-02-27 01:09:59,099 - [INFO] - from play in play-internal-execution-context-23 
+2015-02-27 17:08:34,803 - [INFO] - from play in play-internal-execution-context-15 
 database [default] connected at jdbc:postgresql://localhost:5432/test
 
-2015-02-27 01:09:59,104 - [INFO] - from play in play-internal-execution-context-23 
-Application started (Dev)
-
-2015-02-27 01:11:26,777 - [ERROR] - from application in New I/O worker #5 
-
-
-! @6laln64df - Internal server error, for (GET) [/MyApp] ->
-
-play.PlayExceptions$CompilationException: Compilation error[Not parsed?]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
-	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
-
-2015-02-27 01:14:17,073 - [ERROR] - from application in New I/O worker #6 
-
-
-! @6lalnfmbi - Internal server error, for (GET) [/loginpage] ->
-
-play.PlayExceptions$CompilationException: Compilation error[Not parsed?]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
-	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
-
-2015-02-27 01:15:14,070 - [ERROR] - from application in New I/O worker #6 
-
-
-! @6lalnj2jm - Internal server error, for (GET) [/loginpage] ->
-
-play.PlayExceptions$CompilationException: Compilation error[Not parsed?]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
-	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
-
-2015-02-27 01:15:15,002 - [ERROR] - from application in New I/O worker #6 
-
-
-! @6lalnj43j - Internal server error, for (GET) [/loginpage] ->
-
-play.PlayExceptions$CompilationException: Compilation error[Not parsed?]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
-	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
-
-2015-02-27 01:15:15,752 - [ERROR] - from application in New I/O worker #6 
-
-
-! @6lalnj56e - Internal server error, for (GET) [/loginpage] ->
-
-play.PlayExceptions$CompilationException: Compilation error[Not parsed?]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
-	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
-
-2015-02-27 01:15:26,579 - [ERROR] - from application in New I/O worker #6 
-
-
-! @6lalnjl70 - Internal server error, for (GET) [/loginpage] ->
-
-play.PlayExceptions$CompilationException: Compilation error[Not parsed?]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
-	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
-
-2015-02-27 01:15:38,674 - [INFO] - from play in play-internal-execution-context-23 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:15:38,678 - [INFO] - from play in play-internal-execution-context-23 
-Application started (Dev)
-
-2015-02-27 01:18:12,670 - [INFO] - from play in play-internal-execution-context-23 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:18:12,675 - [INFO] - from play in play-internal-execution-context-23 
-Application started (Dev)
-
-2015-02-27 01:18:54,956 - [INFO] - from play in play-internal-execution-context-23 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:18:54,960 - [INFO] - from play in play-internal-execution-context-23 
-Application started (Dev)
-
-2015-02-27 01:19:08,168 - [INFO] - from play in play-internal-execution-context-23 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:19:08,172 - [INFO] - from play in play-internal-execution-context-23 
-Application started (Dev)
-
-2015-02-27 01:20:37,418 - [INFO] - from play in play-internal-execution-context-23 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:20:37,422 - [INFO] - from play in play-internal-execution-context-23 
-Application started (Dev)
-
-2015-02-27 01:23:06,221 - [INFO] - from play in play-internal-execution-context-23 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:23:06,225 - [INFO] - from play in play-internal-execution-context-23 
-Application started (Dev)
-
-2015-02-27 01:23:25,430 - [INFO] - from play in play-internal-execution-context-23 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:23:25,435 - [INFO] - from play in play-internal-execution-context-23 
-Application started (Dev)
-
-2015-02-27 01:23:33,498 - [INFO] - from play in play-internal-execution-context-23 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:23:33,501 - [INFO] - from play in play-internal-execution-context-23 
-Application started (Dev)
-
-2015-02-27 01:23:56,039 - [INFO] - from play in play-internal-execution-context-33 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:23:56,043 - [INFO] - from play in play-internal-execution-context-33 
-Application started (Dev)
-
-2015-02-27 01:24:03,583 - [INFO] - from play in play-internal-execution-context-35 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:24:03,588 - [INFO] - from play in play-internal-execution-context-35 
-Application started (Dev)
-
-2015-02-27 01:27:17,687 - [INFO] - from play in play-internal-execution-context-34 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:27:17,691 - [INFO] - from play in play-internal-execution-context-34 
-Application started (Dev)
-
-2015-02-27 01:27:56,320 - [INFO] - from play in play-internal-execution-context-34 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:27:56,324 - [INFO] - from play in play-internal-execution-context-34 
-Application started (Dev)
-
-2015-02-27 01:28:07,482 - [INFO] - from play in play-internal-execution-context-34 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:28:07,486 - [INFO] - from play in play-internal-execution-context-34 
-Application started (Dev)
-
-2015-02-27 01:28:13,037 - [INFO] - from play in play-internal-execution-context-34 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:28:13,042 - [INFO] - from play in play-internal-execution-context-34 
-Application started (Dev)
-
-2015-02-27 01:28:24,115 - [INFO] - from play in play-internal-execution-context-37 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:28:24,119 - [INFO] - from play in play-internal-execution-context-37 
-Application started (Dev)
-
-2015-02-27 01:28:46,357 - [INFO] - from play in play-internal-execution-context-37 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:28:46,363 - [INFO] - from play in play-internal-execution-context-37 
-Application started (Dev)
-
-2015-02-27 01:29:24,356 - [INFO] - from play in play-internal-execution-context-37 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:29:24,361 - [INFO] - from play in play-internal-execution-context-37 
-Application started (Dev)
-
-2015-02-27 01:29:48,022 - [INFO] - from play in play-internal-execution-context-38 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:29:48,027 - [INFO] - from play in play-internal-execution-context-38 
-Application started (Dev)
-
-2015-02-27 01:32:13,438 - [ERROR] - from application in New I/O worker #8 
-
-
-! @6lalpp2i9 - Internal server error, for (GET) [/checklogin?email=asdf%40gmail.com&password=asdf] ->
-
-play.PlayExceptions$CompilationException: Compilation error[Invalid '@' symbol]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
-	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
-	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:61) ~[na:na]
-	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.8.jar:2.3.8]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.8.jar:2.3.8]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
-
-2015-02-27 01:32:19,005 - [INFO] - from play in play-internal-execution-context-38 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:32:19,008 - [INFO] - from play in play-internal-execution-context-38 
-Application started (Dev)
-
-2015-02-27 01:33:11,606 - [INFO] - from play in play-internal-execution-context-38 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:33:11,610 - [INFO] - from play in play-internal-execution-context-38 
-Application started (Dev)
-
-2015-02-27 01:36:11,484 - [INFO] - from play in play-internal-execution-context-38 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:36:11,488 - [INFO] - from play in play-internal-execution-context-38 
-Application started (Dev)
-
-2015-02-27 01:36:49,641 - [INFO] - from play in play-internal-execution-context-38 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:36:49,645 - [INFO] - from play in play-internal-execution-context-38 
-Application started (Dev)
-
-2015-02-27 01:37:06,082 - [INFO] - from play in play-internal-execution-context-38 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:37:06,086 - [INFO] - from play in play-internal-execution-context-38 
-Application started (Dev)
-
-2015-02-27 01:38:49,456 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:38:49,460 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 01:39:37,879 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:39:37,883 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 01:40:11,427 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:40:11,431 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 01:40:34,515 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:40:34,518 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 01:41:39,257 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:41:39,261 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 01:42:54,878 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:42:54,881 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 01:43:26,710 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:43:26,714 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 01:43:51,653 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:43:51,657 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 01:48:23,982 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:48:23,985 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 01:50:50,444 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:50:50,448 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 01:51:54,266 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:51:54,270 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 01:52:20,832 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:52:20,835 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 01:55:42,218 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:55:42,222 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 01:58:33,061 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:58:33,064 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 01:59:11,955 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:59:11,959 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 01:59:31,330 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 01:59:31,339 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 02:00:12,928 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 02:00:12,931 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 02:00:24,380 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 02:00:24,385 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 02:00:32,938 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 02:00:32,946 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 02:00:46,249 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 02:00:46,253 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 02:00:56,945 - [INFO] - from play in play-internal-execution-context-43 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 02:00:56,954 - [INFO] - from play in play-internal-execution-context-43 
-Application started (Dev)
-
-2015-02-27 02:01:27,768 - [INFO] - from play in play-internal-execution-context-48 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 02:01:27,772 - [INFO] - from play in play-internal-execution-context-48 
-Application started (Dev)
-
-2015-02-27 02:02:33,380 - [INFO] - from play in play-internal-execution-context-50 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 02:02:33,385 - [INFO] - from play in play-internal-execution-context-50 
-Application started (Dev)
-
-2015-02-27 02:05:17,503 - [INFO] - from play in play-internal-execution-context-50 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 02:05:17,508 - [INFO] - from play in play-internal-execution-context-50 
-Application started (Dev)
-
-2015-02-27 02:06:03,324 - [INFO] - from play in play-internal-execution-context-50 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 02:06:03,328 - [INFO] - from play in play-internal-execution-context-50 
-Application started (Dev)
-
-2015-02-27 02:06:39,786 - [INFO] - from play in play-internal-execution-context-50 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 02:06:39,790 - [INFO] - from play in play-internal-execution-context-50 
-Application started (Dev)
-
-2015-02-27 02:07:17,348 - [INFO] - from play in play-internal-execution-context-51 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 02:07:17,352 - [INFO] - from play in play-internal-execution-context-51 
-Application started (Dev)
-
-2015-02-27 02:07:39,937 - [INFO] - from play in play-internal-execution-context-51 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 02:07:39,942 - [INFO] - from play in play-internal-execution-context-51 
-Application started (Dev)
-
-2015-02-27 02:07:50,763 - [INFO] - from play in play-internal-execution-context-51 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 02:07:50,766 - [INFO] - from play in play-internal-execution-context-51 
-Application started (Dev)
-
-2015-02-27 02:08:17,846 - [INFO] - from play in play-internal-execution-context-51 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 02:08:17,853 - [INFO] - from play in play-internal-execution-context-51 
-Application started (Dev)
-
-2015-02-27 02:08:47,528 - [INFO] - from play in play-internal-execution-context-51 
-database [default] connected at jdbc:postgresql://localhost:5432/test
-
-2015-02-27 02:08:47,531 - [INFO] - from play in play-internal-execution-context-51 
+2015-02-27 17:08:34,807 - [INFO] - from play in play-internal-execution-context-15 
 Application started (Dev)
 

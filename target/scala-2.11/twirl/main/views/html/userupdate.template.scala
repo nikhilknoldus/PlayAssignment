@@ -24,7 +24,7 @@ Seq[Any](format.raw/*1.41*/("""
 """),format.raw/*4.1*/("""
 """),format.raw/*5.75*/("""
 
-"""),_display_(/*7.2*/main("userupdate")/*7.20*/ {_display_(Seq[Any](format.raw/*7.22*/("""
+"""),_display_(/*7.2*/usermain("userupdate")/*7.24*/ {_display_(Seq[Any](format.raw/*7.26*/("""
     
     """),format.raw/*9.5*/("""<!-- Begin page content -->
     <div class="row">
@@ -62,12 +62,15 @@ Seq[Any](format.raw/*1.41*/("""
       <img src='"""),_display_(/*42.18*/routes/*42.24*/.Assets.at("images/img_1.png")),format.raw/*42.54*/("""' alt="...">
       <div class="caption">
   			<h4 align="center"><span>Link Your Account </span></h4>
-       		 <p align="center"><span class="badge"><a href="#" class="btn btn-primary" role="button">Facebook</a></span><span class="badge"><a href="#" class="btn btn-primary" role="button">Twitter</a></span><span class="badge"><a href="#" class="btn btn-primary" role="button">linkedIn</a></span>  </p>
+       		 <p align="center"><span class="badge"><a href="#" class="btn btn-primary" role="button">
+       		 Facebook</a></span><span class="badge"><a href="#" class="btn btn-primary" role="button">
+       		 Twitter</a></span><span class="badge"><a href="#" class="btn btn-primary" role="button">
+       		 linkedIn</a></span>  </p>
       </div>
     </div>
     </div>
 </div>
-""")))}),format.raw/*50.2*/("""
+""")))}),format.raw/*53.2*/("""
 """))}
   }
 
@@ -80,11 +83,11 @@ Seq[Any](format.raw/*1.41*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Fri Feb 27 01:52:20 IST 2015
+                  DATE: Fri Feb 27 15:46:45 IST 2015
                   SOURCE: /home/knoldus/workspace/PlayAssignment/app/views/userupdate.scala.html
-                  HASH: b38e2d391ebb270d8fa000d13a02fa420ff69333
-                  MATRIX: 522->1|656->61|688->85|767->40|795->59|823->134|851->137|877->155|916->157|952->167|1242->431|1293->473|1333->475|1364->479|1406->495|1453->521|1484->525|1654->665|1683->667|1825->782|1840->788|1891->818|2248->1148|2263->1154|2314->1184|2790->1630
-                  LINES: 19->1|21->5|21->5|22->1|24->4|25->5|27->7|27->7|27->7|29->9|39->19|39->19|39->19|40->20|41->21|41->21|42->22|46->26|47->27|53->33|53->33|53->33|62->42|62->42|62->42|70->50
+                  HASH: 8e3a7ac58eeb18040868cedcb36d33e46b67c0c3
+                  MATRIX: 522->1|656->61|688->85|767->40|795->59|823->134|851->137|881->159|920->161|956->171|1246->435|1297->477|1337->479|1368->483|1410->499|1457->525|1488->529|1658->669|1687->671|1829->786|1844->792|1895->822|2252->1152|2267->1158|2318->1188|2827->1667
+                  LINES: 19->1|21->5|21->5|22->1|24->4|25->5|27->7|27->7|27->7|29->9|39->19|39->19|39->19|40->20|41->21|41->21|42->22|46->26|47->27|53->33|53->33|53->33|62->42|62->42|62->42|73->53
                   -- GENERATED --
               */
           

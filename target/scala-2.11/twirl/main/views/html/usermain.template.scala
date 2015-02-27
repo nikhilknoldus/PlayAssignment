@@ -39,11 +39,10 @@ Seq[Any](format.raw/*1.38*/("""
     
     <body class="container">    
     <!-- This is content of the page that contains body -->
-     	
-   	"""),_display_(/*22.6*/userheader()),format.raw/*22.18*/("""
-    """),_display_(/*23.6*/contentPassed),format.raw/*23.19*/("""
-    """),_display_(/*24.6*/footer()),format.raw/*24.14*/("""
-    """),format.raw/*25.5*/("""</body>
+   	"""),_display_(/*21.6*/userheader()),format.raw/*21.18*/("""
+    """),_display_(/*22.6*/contentPassed),format.raw/*22.19*/("""
+    """),_display_(/*23.6*/footer()),format.raw/*23.14*/("""
+    """),format.raw/*24.5*/("""</body>
 </html>
 """))}
   }
@@ -57,11 +56,11 @@ Seq[Any](format.raw/*1.38*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Fri Feb 27 01:28:45 IST 2015
+                  DATE: Fri Feb 27 15:46:45 IST 2015
                   SOURCE: /home/knoldus/workspace/PlayAssignment/app/views/usermain.scala.html
-                  HASH: 4cb076c0798fe259b7aa0eeb3b04166ed0cbd7ff
-                  MATRIX: 513->1|637->37|665->39|827->174|853->179|965->265|1000->279|1029->282|1060->292|1093->298|1237->416|1270->428|1302->434|1336->447|1368->453|1397->461|1429->466
-                  LINES: 19->1|22->1|24->3|31->10|31->10|34->13|34->13|35->14|35->14|38->17|43->22|43->22|44->23|44->23|45->24|45->24|46->25
+                  HASH: 3f83b6dbe76de8c299da882ba31d54a085e00769
+                  MATRIX: 513->1|637->37|665->39|827->174|853->179|965->265|1000->279|1029->282|1060->292|1093->298|1230->409|1263->421|1295->427|1329->440|1361->446|1390->454|1422->459
+                  LINES: 19->1|22->1|24->3|31->10|31->10|34->13|34->13|35->14|35->14|38->17|42->21|42->21|43->22|43->22|44->23|44->23|45->24
                   -- GENERATED --
               */
           

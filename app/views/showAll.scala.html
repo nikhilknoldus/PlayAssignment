@@ -1,6 +1,6 @@
 
 @(param: List[Employee], page:Int,pagesize:Int,filter:String,total:Int)(implicit flash: play.api.mvc.Flash)
-@param
+
 
 
 @import models.Models
@@ -16,7 +16,7 @@
 	
 	@flash.get("success").map { message =>
 			<div class="alert alert-dismissable alert-success">
-				<button type="button" class="close" data-dismiss="alert">×</button>
+				<button type="button" class="close" data-dismiss="alert">X</button>
 				<strong>Well done!</strong> @message
 			</div>
 		}
@@ -28,14 +28,11 @@
 				<tr>
 					<th><a data-ng-click="sort='id'" href="#">ID</a></th>
 					<th><a data-ng-click="sort='name'" href="#">Name</a></th>
-							<th><a data-ng-click="sort='email'" href="#">Password</a></th>
 					<th><a data-ng-click="sort='gender'" href="#">Address</a></th>
 					<th><a data-ng-click="sort='email'" href="#">Company</a></th>
 					<th><a data-ng-click="sort='email'" href="#">Email</a></th>
 					<th><a data-ng-click="sort='phone'" href="#">Phone</a></th>
 					<th><a data-ng-click="sort='phone'" href="#">Created</a></th>
-					<th><a data-ng-click="sort='phone'" href="#">Updated</a></th>
-					<th><a data-ng-click="sort='phone'" href="#">UserType</a></th>
 					<th><a data-ng-click="sort='delete'" href="#">Delete Record </a></th>
 					<th><a data-ng-click="sort='update'" href="#">Update Record</a></th>
 					
@@ -43,20 +40,17 @@
 				<tr>
 					@for(x<-param){
 					<td>@x.id</td>	
-					<td>@x.name</td>
-					<td>@x.password</td>	
+					<td>@x.name</td>	
 					<td>@x.address</td>
 					<td>@x.company</td>
 					<td>@x.email</td>
 					<td>@x.phone</td>
 					<td>@x.created</td>
-					<td>@x.updated</td>
-					<td>@x.user_type</td>
 					
 				
 					<td><a href="@routes.Application.deleteEmp((x.id).get)"> 
 					<button type="button" class="btn btn-default" aria-label="Left Align">
- 						 <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+ 						 <span class="glyphicon glyphicon-align-left" aria-hidden="true">X</span>
 					</button>
 					</a>
 					</td>
